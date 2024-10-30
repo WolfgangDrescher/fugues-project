@@ -1,0 +1,3 @@
+[submodule "bach-wtc-fugues"]
+	path = bach-wtc-fugues
+	url = https://github.com/humdrum-tools/bach-wtc-fugues.git
