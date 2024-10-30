@@ -71,12 +71,76 @@ const pieces = data.value.map(fugue => ({
     subjectEndDeg: fugue.subjectEndDeg,
     subjectDeg: `${fugue.subjectStartDeg} – ${fugue.subjectEndDeg}`,
     horizontal: fugue.exposition?.map(a => getVoiceName(a.voice, fugue.parts)).join(', '),
-}))
+}));
+
+const selectedColumns = ref(columns);
+const columnsTable = computed(() => columns.filter(column => selectedColumns.value.includes(column)));
+
+
+const defaultFilters = {
+    key: null,
+    parts: null,
+    answer: null,
+};
+const filters = reactive({ ...defaultFilters });
+
+const keys = [...new Set(data.value.map(item => item.key))];
+const parts = [...new Set(data.value.map(item => item.parts))].sort();
+const answers = [...new Set(data.value.map(item => item.answer).filter(a => a))];
+
+const filteredPieces = computed(() => {
+    return pieces.filter(item => {
+        return (
+            (!filters.key || filters.key === item.key)
+            && (!filters.parts || filters.parts === item.parts)
+            && (!filters.answer || filters.answer === item.answer)
+        );
+    });
+});
+
+function resetFilters() {
+    Object.assign(filters, defaultFilters);
+}
 </script>
 
 <template>
     <UContainer>
         <Heading>{{ $t('wtc') }}</Heading>
-        <UTable :rows="pieces" :columns="columns" />
+        <div class="flex gap-2 items-end">
+            <div>
+                <UFormGroup :label="$t('key')">
+                    <USelectMenu v-model="filters.key" :options="keys" size="xs" class="w-20" />
+                </UFormGroup>
+            </div>
+            <div>
+                <UFormGroup :label="$t('parts')">
+                    <USelectMenu v-model="filters.parts" :options="parts" size="xs" class="w-20" />
+                </UFormGroup>
+            </div>
+            <div>
+                <UFormGroup :label="$t('answer')">
+                    <USelectMenu v-model="filters.answer" :options="answers" size="xs" class="w-24" />
+                </UFormGroup>
+            </div>
+            <div>
+                <UButton icon="i-heroicons-funnel" color="gray" size="xs" @click="resetFilters">
+                    {{ $t('reset') }}
+                </UButton>
+            </div>
+            <div class="ml-auto">
+                <USelectMenu v-model="selectedColumns" :options="columns" multiple>
+                    <UButton icon="i-heroicons-view-columns" color="gray" size="xs" class="w-36">
+                        {{ $t('columns') }}
+                    </UButton>
+                </USelectMenu>
+            </div>
+        </div>
+
+        <div class="my-4">
+            {{ $t('nCountResults', { n: filteredPieces.length, count: pieces.length }) }}
+        </div>
+
+        <UTable :rows="filteredPieces" :columns="columnsTable">
+        </UTable>
     </UContainer>
 </template>

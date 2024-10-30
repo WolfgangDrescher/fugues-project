@@ -14,3 +14,6 @@ soprano: Sopran
 lowerVoice: Unterstimme
 upperVoice: Oberstimme
 middleVoice: Mittelstimme
+reset: Zurücksetzen
+columns: Spalten
+nCountResults: '{n} von {count} Ergebnissen' 
