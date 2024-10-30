@@ -1,0 +1,229 @@
+wtc1f01:
+    answer: real
+    subjectStartDeg: 1
+    subjectEndDeg: 3
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 4, type: comes }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+
+wtc1f02:
+    answer: tonal
+    subjectStartDeg: 1
+    subjectEndDeg: 3
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 1, type: dux }
+
+wtc1f03:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectEndDeg: 1
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+
+wtc1f04:
+    answer: real
+    subjectStartDeg: 1
+    subjectEndDeg: 1
+    exposition:
+        - { voice: 1, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 3, type: dux }
+        - { voice: 4, type: comes }
+        - { voice: 5, type: dux }
+
+wtc1f05:
+    answer: real
+    subjectStartDeg: 1
+    subjectEndDeg: 3
+    exposition:
+        - { voice: 1, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 3, type: dux }
+        - { voice: 4, type: comes }
+
+wtc1f06:
+    answer: real
+    subjectStartDeg: 1
+    subjectEndDeg: 5
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+
+wtc1f07:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectEndDeg: 3
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+    
+wtc1f08:
+    answer: tonal
+    subjectStartDeg: 1
+    subjectEndDeg: 1
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 1, type: dux }
+
+wtc1f09:
+    answer: real
+    subjectStartDeg: 1
+    subjectEndDeg: 1
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 1, type: dux }
+
+wtc1f10:
+    answer: real
+    subjectStartDeg: 1
+    subjectEndDeg: V:3,
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 1, type: comes }
+
+wtc1f11:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectEndDeg: 3
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 1, type: dux }
+
+wtc1f12:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectEndDeg: 1
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 1, type: dux }
+        - { voice: 4, type: dux }
+
+wtc1f13:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectEndDeg: 3
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+
+wtc1f14:
+    answer: real
+    subjectStartDeg: 1
+    subjectEndDeg: 1
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 1, type: dux }
+        - { voice: 4, type: dux }
+
+wtc1f15:
+    answer: real
+    subjectStartDeg: 1
+    subjectEndDeg: 7
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+
+wtc1f16:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectEndDeg: 3
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 4, type: comes }
+        - { voice: 1, type: dux }
+        - { voice: 2, type: comes }
+
+wtc1f17:
+    answer: tonal
+    subjectStartDeg: 1
+    subjectEndDeg: 5
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 1, type: comes }
+        - { voice: 4, type: dux }
+        - { voice: 3, type: comes }
+
+wtc1f18:
+    answer: tonal-extra
+    subjectStartDeg: 1
+    subjectEndDeg: V:1,
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 4, type: dux }
+        - { voice: 1, type: comes }
+
+wtc1f19:
+    stretto: true
+    answer: tonal
+    subjectStartDeg: 1
+    subjectEndDeg: '?'
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+
+wtc1f20:
+    answer: real
+    subjectStartDeg: 1
+    subjectEndDeg: 5/V:1,
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 4, type: comes }
+        - { voice: 1, type: dux }
+        - { voice: 2, type: comes }
+
+wtc1f21:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectEndDeg: 3
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+
+wtc1f22:
+    answer: tonal
+    subjectStartDeg: 1
+    subjectEndDeg: 3
+    exposition:
+        - { voice: 5, type: dux }
+        - { voice: 4, type: comes }
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+
+wtc1f23:
+    answer: tonal-extra
+    subjectStartDeg: 1
+    subjectEndDeg: 1
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 4, type: dux }
+        - { voice: 1, type: comes }
+
+wtc1f24:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectEndDeg: 5
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+        - { voice: 4, type: comes }
