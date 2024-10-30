@@ -1,0 +1,25 @@
+answer: tonal
+book: 1
+bwv: 862b
+exposition:
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 1
+    -
+        type: dux
+        voice: 4
+    -
+        type: comes
+        voice: 3
+id: wtc1f17
+key: A-
+localRawFile: /kern/wtc/wtc1f17.krn
+meter: 4/4
+nr: 17
+parts: 4
+subjectEndDeg: 5
+subjectStartDeg: 1
+title: The Well-Tempered Clavier, Book 1, Fugue 17 in A-flat major

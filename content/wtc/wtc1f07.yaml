@@ -1,0 +1,22 @@
+answer: tonal
+book: 1
+bwv: 852b
+exposition:
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 2
+    -
+        type: dux
+        voice: 1
+id: wtc1f07
+key: E-
+localRawFile: /kern/wtc/wtc1f07.krn
+meter: 4/4
+nr: 7
+parts: 3
+subjectEndDeg: 3
+subjectStartDeg: 5
+title: The Well-Tempered Clavier, Book 1, Fugue 7 in E-flat major

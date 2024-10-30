@@ -1,0 +1,22 @@
+answer: tonal
+book: 1
+bwv: 856b
+exposition:
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 3
+    -
+        type: dux
+        voice: 1
+id: wtc1f11
+key: F
+localRawFile: /kern/wtc/wtc1f11.krn
+meter: 3/8
+nr: 11
+parts: 3
+subjectEndDeg: 3
+subjectStartDeg: 5
+title: The Well-Tempered Clavier, Book 1, Fugue 11 in F major

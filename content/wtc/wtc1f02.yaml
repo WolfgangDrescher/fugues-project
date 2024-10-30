@@ -1,0 +1,22 @@
+answer: tonal
+book: 1
+bwv: 847b
+exposition:
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 3
+    -
+        type: dux
+        voice: 1
+id: wtc1f02
+key: c
+localRawFile: /kern/wtc/wtc1f02.krn
+meter: 4/4
+nr: 2
+parts: 3
+subjectEndDeg: 3
+subjectStartDeg: 1
+title: The Well-Tempered Clavier, Book 1, Fugue 2 in C minor

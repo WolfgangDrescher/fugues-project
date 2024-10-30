@@ -1,0 +1,25 @@
+answer: tonal
+book: 1
+bwv: 857b
+exposition:
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 3
+    -
+        type: dux
+        voice: 1
+    -
+        type: dux
+        voice: 4
+id: wtc1f12
+key: f
+localRawFile: /kern/wtc/wtc1f12.krn
+meter: 4/4
+nr: 12
+parts: 4
+subjectEndDeg: 1
+subjectStartDeg: 5
+title: The Well-Tempered Clavier, Book 1, Fugue 12 in F minor

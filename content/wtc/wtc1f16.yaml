@@ -1,0 +1,25 @@
+answer: tonal
+book: 1
+bwv: 861b
+exposition:
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 4
+    -
+        type: dux
+        voice: 1
+    -
+        type: comes
+        voice: 2
+id: wtc1f16
+key: g
+localRawFile: /kern/wtc/wtc1f16.krn
+meter: 4/4
+nr: 16
+parts: 4
+subjectEndDeg: 3
+subjectStartDeg: 5
+title: The Well-Tempered Clavier, Book 1, Fugue 16 in G minor

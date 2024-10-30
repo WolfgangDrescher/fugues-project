@@ -1,0 +1,19 @@
+answer: real
+book: 1
+bwv: 855b
+exposition:
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 1
+id: wtc1f10
+key: e
+localRawFile: /kern/wtc/wtc1f10.krn
+meter: 3/4
+nr: 10
+parts: 2
+subjectEndDeg: V:3,
+subjectStartDeg: 1
+title: The Well-Tempered Clavier, Book 1, Fugue 10 in E minor

@@ -1,0 +1,28 @@
+answer: tonal
+book: 1
+bwv: 867b
+exposition:
+    -
+        type: dux
+        voice: 5
+    -
+        type: comes
+        voice: 4
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 2
+    -
+        type: dux
+        voice: 1
+id: wtc1f22
+key: b-
+localRawFile: /kern/wtc/wtc1f22.krn
+meter: 2/2
+nr: 22
+parts: 5
+subjectEndDeg: 3
+subjectStartDeg: 1
+title: The Well-Tempered Clavier, Book 1, Fugue 22 in B-flat minor

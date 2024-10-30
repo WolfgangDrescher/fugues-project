@@ -1,0 +1,28 @@
+answer: real
+book: 1
+bwv: 849b
+exposition:
+    -
+        type: dux
+        voice: 1
+    -
+        type: comes
+        voice: 2
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 4
+    -
+        type: dux
+        voice: 5
+id: wtc1f04
+key: c#
+localRawFile: /kern/wtc/wtc1f04.krn
+meter: 2/2
+nr: 4
+parts: 5
+subjectEndDeg: 1
+subjectStartDeg: 1
+title: The Well-Tempered Clavier, Book 1, Fugue 4 in C-sharp minor

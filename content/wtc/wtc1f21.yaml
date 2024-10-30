@@ -1,0 +1,22 @@
+answer: tonal
+book: 1
+bwv: 866b
+exposition:
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 2
+    -
+        type: dux
+        voice: 1
+id: wtc1f21
+key: B-
+localRawFile: /kern/wtc/wtc1f21.krn
+meter: 3/4
+nr: 21
+parts: 3
+subjectEndDeg: 3
+subjectStartDeg: 5
+title: The Well-Tempered Clavier, Book 1, Fugue 21 in B-flat major

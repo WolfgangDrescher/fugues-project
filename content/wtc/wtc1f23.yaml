@@ -1,0 +1,25 @@
+answer: tonal-extra
+book: 1
+bwv: 868b
+exposition:
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 3
+    -
+        type: dux
+        voice: 4
+    -
+        type: comes
+        voice: 1
+id: wtc1f23
+key: B
+localRawFile: /kern/wtc/wtc1f23.krn
+meter: 4/4
+nr: 23
+parts: 4
+subjectEndDeg: 1
+subjectStartDeg: 1
+title: The Well-Tempered Clavier, Book 1, Fugue 23 in B major

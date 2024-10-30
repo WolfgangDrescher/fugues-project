@@ -1,0 +1,22 @@
+answer: real
+book: 1
+bwv: 860b
+exposition:
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 2
+    -
+        type: dux
+        voice: 1
+id: wtc1f15
+key: G
+localRawFile: /kern/wtc/wtc1f15.krn
+meter: 6/8
+nr: 15
+parts: 3
+subjectEndDeg: 7
+subjectStartDeg: 1
+title: The Well-Tempered Clavier, Book 1, Fugue 15 in G major

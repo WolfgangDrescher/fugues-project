@@ -1,0 +1,22 @@
+answer: real
+book: 1
+bwv: 851b
+exposition:
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 2
+    -
+        type: dux
+        voice: 1
+id: wtc1f06
+key: d
+localRawFile: /kern/wtc/wtc1f06.krn
+meter: 3/4
+nr: 6
+parts: 3
+subjectEndDeg: 5
+subjectStartDeg: 1
+title: The Well-Tempered Clavier, Book 1, Fugue 6 in D minor
