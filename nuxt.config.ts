@@ -1,3 +1,5 @@
+import { fileURLToPath } from 'node:url';
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     compatibilityDate: '2024-10-30',
@@ -37,6 +39,15 @@ export default defineNuxtConfig({
         optimizeDeps: {
             exclude: ['verovio'],
         },
+    },
+    nitro: {
+        publicAssets: [
+            {
+                baseURL: 'kern/bach-wtc-fugues',
+                dir: fileURLToPath(new URL('./bach-wtc-fugues/kern', import.meta.url)),
+                maxAge: 3600,
+            },
+        ],
     },
     colorMode: {
         preference: 'light',
