@@ -153,7 +153,7 @@ function resetFilters() {
             </template> 
             <template #subject-data="{ row }">
                 <div class="max-w-96">
-                    <WtcSubjectScore :piece="row._piece" />
+                    <WtcSubjectScore :key="row.id" :piece="row._piece" />
                 </div>
             </template>
         </UTable>
