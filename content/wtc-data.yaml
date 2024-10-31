@@ -2,6 +2,7 @@ wtc1f01:
     answer: real
     subjectStartDeg: 1
     subjectEndDeg: 3
+    subjectEndBeat: 6.5
     exposition:
         - { voice: 3, type: dux }
         - { voice: 4, type: comes }
@@ -12,6 +13,7 @@ wtc1f02:
     answer: tonal
     subjectStartDeg: 1
     subjectEndDeg: 3
+    subjectEndBeat: 8.5
     exposition:
         - { voice: 2, type: dux }
         - { voice: 3, type: comes }
@@ -21,6 +23,7 @@ wtc1f03:
     answer: tonal
     subjectStartDeg: 5
     subjectEndDeg: 1
+    subjectEndBeat: 9.5
     exposition:
         - { voice: 3, type: dux }
         - { voice: 2, type: comes }
@@ -30,6 +33,7 @@ wtc1f04:
     answer: real
     subjectStartDeg: 1
     subjectEndDeg: 1
+    subjectEndBeat: 12
     exposition:
         - { voice: 1, type: dux }
         - { voice: 2, type: comes }
@@ -41,6 +45,7 @@ wtc1f05:
     answer: real
     subjectStartDeg: 1
     subjectEndDeg: 3
+    subjectEndBeat: 5
     exposition:
         - { voice: 1, type: dux }
         - { voice: 2, type: comes }
@@ -51,6 +56,7 @@ wtc1f06:
     answer: real
     subjectStartDeg: 1
     subjectEndDeg: 5
+    subjectEndBeat: 8.5
     exposition:
         - { voice: 3, type: dux }
         - { voice: 2, type: comes }
@@ -60,6 +66,7 @@ wtc1f07:
     answer: tonal
     subjectStartDeg: 5
     subjectEndDeg: 3
+    subjectEndBeat: 8
     exposition:
         - { voice: 3, type: dux }
         - { voice: 2, type: comes }
@@ -69,6 +76,7 @@ wtc1f08:
     answer: tonal
     subjectStartDeg: 1
     subjectEndDeg: 1
+    subjectEndBeat: 10
     exposition:
         - { voice: 2, type: dux }
         - { voice: 3, type: comes }
@@ -78,6 +86,7 @@ wtc1f09:
     answer: real
     subjectStartDeg: 1
     subjectEndDeg: 1
+    subjectEndBeat: 5.5
     exposition:
         - { voice: 2, type: dux }
         - { voice: 3, type: comes }
@@ -87,6 +96,7 @@ wtc1f10:
     answer: real
     subjectStartDeg: 1
     subjectEndDeg: V:3,
+    subjectEndBeat: 8
     exposition:
         - { voice: 2, type: dux }
         - { voice: 1, type: comes }
@@ -95,6 +105,7 @@ wtc1f11:
     answer: tonal
     subjectStartDeg: 5
     subjectEndDeg: 3
+    subjectEndBeat: 7
     exposition:
         - { voice: 2, type: dux }
         - { voice: 3, type: comes }
@@ -104,6 +115,7 @@ wtc1f12:
     answer: tonal
     subjectStartDeg: 5
     subjectEndDeg: 1
+    subjectEndBeat: 13
     exposition:
         - { voice: 2, type: dux }
         - { voice: 3, type: comes }
@@ -114,6 +126,7 @@ wtc1f13:
     answer: tonal
     subjectStartDeg: 5
     subjectEndDeg: 3
+    subjectEndBeat: 8.5
     exposition:
         - { voice: 3, type: dux }
         - { voice: 2, type: comes }
@@ -123,6 +136,7 @@ wtc1f14:
     answer: real
     subjectStartDeg: 1
     subjectEndDeg: 1
+    subjectEndBeat: 19
     exposition:
         - { voice: 2, type: dux }
         - { voice: 3, type: comes }
@@ -133,6 +147,7 @@ wtc1f15:
     answer: real
     subjectStartDeg: 1
     subjectEndDeg: 7
+    subjectEndBeat: 13
     exposition:
         - { voice: 3, type: dux }
         - { voice: 2, type: comes }
@@ -142,6 +157,7 @@ wtc1f16:
     answer: tonal
     subjectStartDeg: 5
     subjectEndDeg: 3
+    subjectEndBeat: 6.5
     exposition:
         - { voice: 3, type: dux }
         - { voice: 4, type: comes }
@@ -152,6 +168,7 @@ wtc1f17:
     answer: tonal
     subjectStartDeg: 1
     subjectEndDeg: 5
+    subjectEndBeat: 5
     exposition:
         - { voice: 2, type: dux }
         - { voice: 1, type: comes }
@@ -162,6 +179,7 @@ wtc1f18:
     answer: tonal-extra
     subjectStartDeg: 1
     subjectEndDeg: V:1
+    subjectEndBeat: 9
     exposition:
         - { voice: 2, type: dux }
         - { voice: 3, type: comes }
@@ -173,6 +191,7 @@ wtc1f19:
     answer: tonal
     subjectStartDeg: 1
     subjectEndDeg: '?'
+    subjectEndBeat: 4.5
     exposition:
         - { voice: 3, type: dux }
         - { voice: 2, type: comes }
@@ -182,6 +201,7 @@ wtc1f20:
     answer: real
     subjectStartDeg: 1
     subjectEndDeg: 5/V:1
+    subjectEndBeat: 12.5
     exposition:
         - { voice: 3, type: dux }
         - { voice: 4, type: comes }
@@ -192,6 +212,7 @@ wtc1f21:
     answer: tonal
     subjectStartDeg: 5
     subjectEndDeg: 3
+    subjectEndBeat: 12.5
     exposition:
         - { voice: 3, type: dux }
         - { voice: 2, type: comes }
@@ -201,6 +222,7 @@ wtc1f22:
     answer: tonal
     subjectStartDeg: 1
     subjectEndDeg: 3
+    subjectEndBeat: 8
     exposition:
         - { voice: 5, type: dux }
         - { voice: 4, type: comes }
@@ -212,6 +234,7 @@ wtc1f23:
     answer: tonal-extra
     subjectStartDeg: 1
     subjectEndDeg: 1
+    subjectEndBeat: 8.5
     exposition:
         - { voice: 2, type: dux }
         - { voice: 3, type: comes }
@@ -222,6 +245,7 @@ wtc1f24:
     answer: tonal
     subjectStartDeg: 5
     subjectEndDeg: 5
+    subjectEndBeat: 12.5
     exposition:
         - { voice: 3, type: dux }
         - { voice: 2, type: comes }
