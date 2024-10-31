@@ -161,7 +161,7 @@ wtc1f17:
 wtc1f18:
     answer: tonal-extra
     subjectStartDeg: 1
-    subjectEndDeg: V:1,
+    subjectEndDeg: V:1
     exposition:
         - { voice: 2, type: dux }
         - { voice: 3, type: comes }
@@ -181,7 +181,7 @@ wtc1f19:
 wtc1f20:
     answer: real
     subjectStartDeg: 1
-    subjectEndDeg: 5/V:1,
+    subjectEndDeg: 5/V:1
     exposition:
         - { voice: 3, type: dux }
         - { voice: 4, type: comes }
