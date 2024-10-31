@@ -2,6 +2,7 @@
 const { data } = await useAsyncData('wtc', () => queryContent('/wtc/').find())
 
 const { t } = useI18n();
+const localePath = useLocalePath();
 
 const columns = [
     {
@@ -146,6 +147,9 @@ function resetFilters() {
         </div>
 
         <UTable :rows="filteredPieces" :columns="columnsTable">
+            <template #bwv-data="{ row }">
+                <NuxtLink :to="localePath({ name: 'wtc-id', params: { id: row.id } })">{{ row.bwv }}</NuxtLink>
+            </template> 
             <template #subject-data="{ row }">
                 <div class="max-w-96">
                     <WtcSubjectScore :piece="row._piece" />
