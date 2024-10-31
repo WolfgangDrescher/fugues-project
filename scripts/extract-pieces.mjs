@@ -33,11 +33,6 @@ function parseHumdrumReferenceRecords(humdrum) {
     return output;
 }
 
-function getMe(kern) {
-    const matches = kern.match(/\*([a-hA-H][\#\-]*):/);
-    return matches?.[1] ?? null;
-}
-
 function getFiles(directory, fileList) {
     fileList = fileList || [];
     let files = fs.readdirSync(directory);
