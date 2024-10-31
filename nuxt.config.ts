@@ -43,11 +43,19 @@ export default defineNuxtConfig({
     nitro: {
         publicAssets: [
             {
-                baseURL: 'kern/bach-wtc-fugues',
+                baseURL: 'kern/wtc',
                 dir: fileURLToPath(new URL('./bach-wtc-fugues/kern', import.meta.url)),
                 maxAge: 3600,
             },
         ],
+        routeRules: {
+            '/kern/**': {
+              headers: {
+                'content-type': 'text/plain',
+                'content-disposition': 'inline',
+              },
+            },
+          },
     },
     colorMode: {
         preference: 'light',
