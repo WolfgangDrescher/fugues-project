@@ -18,6 +18,8 @@ meter: 9/8
 nr: 19
 parts: 3
 stretto: true
+subjectEndBeat: 4.5
 subjectEndDeg: '?'
+subjectEndLineNumber: 29
 subjectStartDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 19 in A major

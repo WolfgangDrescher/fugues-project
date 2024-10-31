@@ -20,6 +20,8 @@ localRawFile: /kern/wtc/wtc1f12.krn
 meter: 4/4
 nr: 12
 parts: 4
+subjectEndBeat: 13
 subjectEndDeg: 1
+subjectEndLineNumber: 33
 subjectStartDeg: 5
 title: The Well-Tempered Clavier, Book 1, Fugue 12 in F minor

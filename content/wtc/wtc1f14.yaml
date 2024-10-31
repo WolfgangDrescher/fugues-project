@@ -20,6 +20,8 @@ localRawFile: /kern/wtc/wtc1f14.krn
 meter: 6/4
 nr: 14
 parts: 4
+subjectEndBeat: 19
 subjectEndDeg: 1
+subjectEndLineNumber: 40
 subjectStartDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 14 in F-sharp minor

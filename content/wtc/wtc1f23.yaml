@@ -20,6 +20,8 @@ localRawFile: /kern/wtc/wtc1f23.krn
 meter: 4/4
 nr: 23
 parts: 4
+subjectEndBeat: 8.5
 subjectEndDeg: 1
+subjectEndLineNumber: 33
 subjectStartDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 23 in B major

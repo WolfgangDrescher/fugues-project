@@ -17,6 +17,8 @@ localRawFile: /kern/wtc/wtc1f15.krn
 meter: 6/8
 nr: 15
 parts: 3
+subjectEndBeat: 12
 subjectEndDeg: 7
+subjectEndLineNumber: 51
 subjectStartDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 15 in G major

@@ -20,6 +20,8 @@ localRawFile: /kern/wtc/wtc1f16.krn
 meter: 4/4
 nr: 16
 parts: 4
+subjectEndBeat: 6.5
 subjectEndDeg: 3
+subjectEndLineNumber: 31
 subjectStartDeg: 5
 title: The Well-Tempered Clavier, Book 1, Fugue 16 in G minor

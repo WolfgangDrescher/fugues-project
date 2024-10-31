@@ -14,6 +14,8 @@ localRawFile: /kern/wtc/wtc1f10.krn
 meter: 3/4
 nr: 10
 parts: 2
+subjectEndBeat: 6
 subjectEndDeg: V:3,
+subjectEndLineNumber: 42
 subjectStartDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 10 in E minor

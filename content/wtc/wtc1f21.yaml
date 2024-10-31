@@ -17,6 +17,8 @@ localRawFile: /kern/wtc/wtc1f21.krn
 meter: 3/4
 nr: 21
 parts: 3
+subjectEndBeat: 12.5
 subjectEndDeg: 3
+subjectEndLineNumber: 59
 subjectStartDeg: 5
 title: The Well-Tempered Clavier, Book 1, Fugue 21 in B-flat major

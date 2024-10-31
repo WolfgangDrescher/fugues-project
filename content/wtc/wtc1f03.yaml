@@ -17,6 +17,8 @@ localRawFile: /kern/wtc/wtc1f03.krn
 meter: 4/4
 nr: 3
 parts: 3
+subjectEndBeat: 9.5
 subjectEndDeg: 1
+subjectEndLineNumber: 42
 subjectStartDeg: 5
 title: The Well-Tempered Clavier, Book 1, Fugue 3 in C-sharp major

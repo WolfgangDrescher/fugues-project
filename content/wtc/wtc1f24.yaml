@@ -20,6 +20,8 @@ localRawFile: /kern/wtc/wtc1f24.krn
 meter: 4/4
 nr: 24
 parts: 4
+subjectEndBeat: 12.5
 subjectEndDeg: 5
+subjectEndLineNumber: null
 subjectStartDeg: 5
 title: The Well-Tempered Clavier, Book 1, Fugue 24 in B minor

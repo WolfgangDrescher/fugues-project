@@ -23,6 +23,8 @@ localRawFile: /kern/wtc/wtc1f22.krn
 meter: 2/2
 nr: 22
 parts: 5
+subjectEndBeat: 8
 subjectEndDeg: 3
+subjectEndLineNumber: 26
 subjectStartDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 22 in B-flat minor
