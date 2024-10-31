@@ -76,7 +76,7 @@ const pieces = data.value.map(fugue => ({
     answer: fugue.answer,
     subjectStartDeg: fugue.subjectStartDeg,
     subjectEndDeg: fugue.subjectEndDeg,
-    subjectDeg: `${fugue.subjectStartDeg} – ${fugue.subjectEndDeg}`,
+    subjectDeg: `${fugue.subjectStartDeg ?? ''} – ${fugue.subjectEndDeg ?? ''}`,
     horizontal: fugue.exposition?.map(a => getVoiceName(a.voice, fugue.parts)).join(', '),
 }));
 
