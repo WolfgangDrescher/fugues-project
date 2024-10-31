@@ -135,7 +135,7 @@ function resetFilters() {
             </div>
             <div class="ml-auto">
                 <USelectMenu v-model="selectedColumns" :options="columns" multiple>
-                    <UButton icon="i-heroicons-view-columns" color="gray" size="xs" class="w-36">
+                    <UButton icon="i-heroicons-view-columns" color="gray" size="xs" class="w-48">
                         {{ $t('columns') }}
                     </UButton>
                 </USelectMenu>
