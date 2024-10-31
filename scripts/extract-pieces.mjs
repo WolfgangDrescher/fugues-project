@@ -69,7 +69,20 @@ getFiles(pathToKernScores).forEach(file => {
         key: kern.match(/\*([a-hA-H][\#\-]*):/)?.[1] ?? null,
         meter: kern.match(/\*M(\d+\/\d+)/)?.[1] ?? null,
         nr: parseInt((referenceRecords.OTL.match(/Fugue (\d+)/) || [])[1], 10),
+        subjectEndLineNumber: null,
     }, wtcData[id] ?? {});
+
+    const stdout = execSync(`cat ${file} | lnnr | beat -ac | extractxx -I kern | ridx -LGTMId`).toString().trim();
+    const lines = stdout.split('\n');
+    for (let i = 0; i < lines.length - 1; i++) {
+        const [lnnrToken, beatToken] = lines[i].split('\t');
+        const lineNumber = parseInt(lnnrToken, 10);
+        const beat = parseFloat(beatToken, 10);
+        if (beat === config.subjectEndBeat) {
+            config.subjectEndLineNumber = lineNumber;
+            break;
+        }
+    }
 
     const configFilename = `${id}.yaml`;
     fs.writeFileSync(`${piecesYamlPath}${configFilename}`, yaml.dump(config, {
