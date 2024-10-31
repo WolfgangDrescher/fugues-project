@@ -56,7 +56,7 @@ wtc1f06:
     answer: real
     subjectStartDeg: 1
     subjectEndDeg: 5
-    subjectEndBeat: 8.5
+    subjectEndBeat: 6.5
     exposition:
         - { voice: 3, type: dux }
         - { voice: 2, type: comes }
@@ -96,7 +96,7 @@ wtc1f10:
     answer: real
     subjectStartDeg: 1
     subjectEndDeg: V:3,
-    subjectEndBeat: 8
+    subjectEndBeat: 6
     exposition:
         - { voice: 2, type: dux }
         - { voice: 1, type: comes }
@@ -105,7 +105,7 @@ wtc1f11:
     answer: tonal
     subjectStartDeg: 5
     subjectEndDeg: 3
-    subjectEndBeat: 7
+    subjectEndBeat: 6
     exposition:
         - { voice: 2, type: dux }
         - { voice: 3, type: comes }
@@ -147,7 +147,7 @@ wtc1f15:
     answer: real
     subjectStartDeg: 1
     subjectEndDeg: 7
-    subjectEndBeat: 13
+    subjectEndBeat: 12
     exposition:
         - { voice: 3, type: dux }
         - { voice: 2, type: comes }
