@@ -36,6 +36,10 @@ const columns = [
         key: 'subjectDeg',
         label: t('subjectDeg'),
     },
+    {
+        key: 'subject',
+        label: t('subject'),
+    },
 ];
 
 function getVoiceName(num, voicesCount) {
@@ -59,6 +63,8 @@ function getVoiceName(num, voicesCount) {
 }
 
 const pieces = data.value.map(fugue => ({
+    _piece: fugue,
+    id: fugue.id,
     key: fugue.key,
     bookNr: `${fugue.book}/${fugue.nr}`,
     book: fugue.book,
@@ -75,7 +81,6 @@ const pieces = data.value.map(fugue => ({
 
 const selectedColumns = ref(columns);
 const columnsTable = computed(() => columns.filter(column => selectedColumns.value.includes(column)));
-
 
 const defaultFilters = {
     key: null,
@@ -141,6 +146,11 @@ function resetFilters() {
         </div>
 
         <UTable :rows="filteredPieces" :columns="columnsTable">
+            <template #subject-data="{ row }">
+                <div class="max-w-96">
+                    <WtcSubjectScore :piece="row._piece" />
+                </div>
+            </template>
         </UTable>
     </UContainer>
 </template>
