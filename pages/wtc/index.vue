@@ -133,7 +133,8 @@ function resetFilters() {
                     {{ $t('reset') }}
                 </UButton>
             </div>
-            <div class="ml-auto">
+            <div class="ml-auto flex gap-2">
+                <UButton icon="i-heroicons-funnel" color="gray" size="xs" @click="selectedColumns = columns" />
                 <USelectMenu v-model="selectedColumns" :options="columns" multiple>
                     <UButton icon="i-heroicons-view-columns" color="gray" size="xs" class="w-48">
                         {{ $t('columns') }}
