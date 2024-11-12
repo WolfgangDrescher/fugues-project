@@ -1,6 +1,9 @@
 answer: real
 book: 2
 bwv: 891b
+category:
+    - vocal-linearity
+    - profiled-rhythm
 exposition:
     -
         type: dux

@@ -1,6 +1,8 @@
 answer: real
 book: 2
 bwv: 877b
+category:
+    - vocal-linearity
 exposition:
     -
         type: dux

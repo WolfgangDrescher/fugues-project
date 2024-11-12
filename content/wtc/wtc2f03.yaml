@@ -1,6 +1,8 @@
 answer: tonal
 book: 2
 bwv: 872b
+category:
+    - arpeggio
 exposition:
     -
         type: dux

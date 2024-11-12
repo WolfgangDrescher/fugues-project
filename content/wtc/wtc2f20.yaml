@@ -1,6 +1,9 @@
 answer: tonal
 book: 2
 bwv: 889b
+category:
+    - arpeggio
+    - lament-with-leaps
 exposition:
     -
         type: dux

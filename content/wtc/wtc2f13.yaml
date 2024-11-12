@@ -1,6 +1,9 @@
 answer: real
 book: 2
 bwv: 882b
+category:
+    - profiled-rhythm
+    - contrast
 exposition:
     -
         type: dux

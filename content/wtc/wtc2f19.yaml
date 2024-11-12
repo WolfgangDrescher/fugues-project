@@ -1,6 +1,8 @@
 answer: real
 book: 2
 bwv: 888b
+category:
+    - figures
 exposition:
     -
         type: dux

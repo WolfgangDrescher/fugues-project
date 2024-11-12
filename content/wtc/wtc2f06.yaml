@@ -1,6 +1,9 @@
 answer: real
 book: 2
 bwv: 875b
+category:
+    - contrast
+    - chromaticism
 exposition:
     -
         type: dux

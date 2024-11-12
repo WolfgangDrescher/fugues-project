@@ -1,6 +1,9 @@
 answer: tonal
 book: 2
 bwv: 881b
+category:
+    - figures
+    - lament-with-leaps
 exposition:
     -
         type: dux

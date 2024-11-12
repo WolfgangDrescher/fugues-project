@@ -1,6 +1,8 @@
 answer: real
 book: 2
 bwv: 887b
+category:
+    - gigue
 exposition:
     -
         type: dux
