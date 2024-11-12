@@ -73,6 +73,7 @@ getFiles(pathToKernScores).forEach(file => {
     }, wtcData[id] ?? {});
 
     config.modulatingSubject = config.subjectStartKeyDeg !== config.subjectEndKeyDeg;
+    config.majorMinor = config.key === config.key.toLowerCase() ? 'minor' : 'major';
 
     const stdout = execSync(`cat ${file} | lnnr | beat -ac | extractxx -I kern | ridx -LGTMId`).toString().trim();
     const lines = stdout.split('\n');
