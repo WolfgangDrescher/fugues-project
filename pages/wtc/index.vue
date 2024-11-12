@@ -41,6 +41,14 @@ const columns = [
         key: 'subject',
         label: t('subject'),
     },
+    {
+        key: 'majorMinor',
+        label: t('majorMinor'),
+    },
+    {
+        key: 'modulatingSubject',
+        label: t('modulatingSubject'),
+    },
 ];
 
 function getVoiceName(num, voicesCount) {
@@ -75,9 +83,13 @@ const pieces = data.value.map(fugue => ({
     meter: fugue.meter,
     answer: fugue.answer,
     subjectStartDeg: fugue.subjectStartDeg,
+    subjectStartKeyDeg: fugue.subjectStartKeyDeg,
     subjectEndDeg: fugue.subjectEndDeg,
+    subjectEndKeyDeg: fugue.subjectEndKeyDeg,
     subjectDeg: `${fugue.subjectStartDeg ?? ''} – ${fugue.subjectEndDeg ?? ''}`,
     horizontal: fugue.exposition?.map(a => getVoiceName(a.voice, fugue.parts)).join(', '),
+    majorMinor: fugue.majorMinor,
+    modulatingSubject: fugue.modulatingSubject,
 }));
 
 const selectedColumns = ref(columns);
@@ -87,12 +99,15 @@ const defaultFilters = {
     key: null,
     parts: null,
     answer: null,
+    majorMinor: null,
+    modulatingSubject: null,
 };
 const filters = reactive({ ...defaultFilters });
 
 const keys = [...new Set(data.value.map(item => item.key))];
 const parts = [...new Set(data.value.map(item => item.parts))].sort();
 const answers = [...new Set(data.value.map(item => item.answer).filter(a => a))];
+const majorMinor = [...new Set(data.value.map(item => item.majorMinor).filter(a => a))];
 
 const filteredPieces = computed(() => {
     return pieces.filter(item => {
@@ -100,6 +115,8 @@ const filteredPieces = computed(() => {
             (!filters.key || filters.key === item.key)
             && (!filters.parts || filters.parts === item.parts)
             && (!filters.answer || filters.answer === item.answer)
+            && (!filters.majorMinor || filters.majorMinor === item.majorMinor)
+            && (!filters.modulatingSubject || item.modulatingSubject)
         );
     });
 });
