@@ -299,3 +299,300 @@ wtc1f24:
         - { voice: 2, type: comes }
         - { voice: 1, type: dux }
         - { voice: 4, type: comes }
+
+wtc2f01:
+    answer: tonal
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 8.5
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 1, type: dux }
+
+wtc2f02:
+    answer: tonal
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 4.5
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 4, type: comes }
+        - { voice: 2, type: dux }
+        - { voice: 1, type: missing } # TODO
+
+wtc2f03:
+    answer: tonal
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 2.5
+    exposition:
+        - { voice: 1, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 2, type: dux-inversion }
+
+wtc2f04:
+    answer: real
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 4.5
+    exposition:
+        - { voice: 1, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 2, type: dux }
+
+wtc2f05:
+    answer: real
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3/1 ???
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 6.5
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 4, type: dux }
+        - { voice: 1, type: comes }
+
+wtc2f06:
+    answer: real
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 8
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 1, type: dux }
+
+wtc2f07:
+    answer: tonal
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 1
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 24
+    exposition:
+        - { voice: 1, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 3, type: dux }
+        - { voice: 4, type: comes }
+
+wtc2f08:
+    answer: real
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 8.5
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+        - { voice: 4, type: comes }
+
+wtc2f09:
+    answer: real
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 1
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 12
+    exposition:
+        - { voice: 1, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 3, type: dux }
+        - { voice: 4, type: comes }
+
+wtc2f10:
+    answer: real
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 1
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 24.33333333 # TODO
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+
+wtc2f11:
+    answer: tonal
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3/7 ????
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 6.75
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+
+wtc2f12:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 8
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+
+wtc2f13:
+    answer: real
+    subjectStartDeg: 7
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 1
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 16
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 1, type: dux }
+
+wtc2f14:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 1
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 13.5
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 1, type: dux }
+
+wtc2f15:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 5
+    subjectEndBeat: 10.75
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+
+wtc2f16:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 13
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 4, type: dux }
+        - { voice: 1, type: comes }
+
+wtc2f17:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 8.5
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 4, type: comes }
+        - { voice: 2, type: dux }
+        - { voice: 1, type: comes }
+
+wtc2f18:
+    answer: real
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 12
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 1, type: dux }
+
+wtc2f19:
+    answer: real
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 6.5
+    exposition:
+        - { voice: 1, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 3, type: dux }
+
+wtc2f20:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3/1 ???
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 9
+    exposition:
+        - { voice: 1, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 3, type: dux }
+
+wtc2f21:
+    answer: tonal
+    subjectStartDeg: 2
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 12.5
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 1, type: dux }
+
+wtc2f22:
+    answer: real
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 24
+    exposition:
+        - { voice: 3, type: dux }
+        - { voice: 4, type: comes }
+        - { voice: 2, type: dux }
+        - { voice: 1, type: comes }
+
+wtc2f23:
+    answer: real
+    subjectStartDeg: 1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 16
+    exposition:
+        - { voice: 1, type: dux }
+        - { voice: 2, type: comes }
+        - { voice: 3, type: dux }
+        - { voice: 4, type: comes }
+
+wtc2f24:
+    answer: tonal
+    subjectStartDeg: 5
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 1
+    subjectEndBeat: 9
+    exposition:
+        - { voice: 2, type: dux }
+        - { voice: 3, type: comes }
+        - { voice: 1, type: dux }
