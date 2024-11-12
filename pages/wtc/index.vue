@@ -34,6 +34,14 @@ const columns = [
         label: t('horizontal'),
     },
     {
+        key: 'vertical',
+        label: t('vertical'),
+    },
+    {
+        key: 'disposition',
+        label: t('disposition'),
+    },
+    {
         key: 'subjectDeg',
         label: t('subjectDeg'),
     },
@@ -182,6 +190,12 @@ function resetFilters() {
                 <div class="max-w-96">
                     <WtcSubjectScore :key="row.id" :piece="row._piece" />
                 </div>
+            </template>
+            <template #vertical-data="{ row }">
+                <pre v-text="row._piece.exposition?.toSorted((a, b) => b.voice - a.voice).map(a => a.type.substring(0, 1).toUpperCase()).join('\n')"></pre>
+            </template>
+            <template #disposition-data="{ row }">
+                <FugueDisposition :disposition="row._piece.exposition" compact />
             </template>
         </UTable>
     </UContainer>
