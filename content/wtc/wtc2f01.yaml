@@ -3,7 +3,9 @@ bwv: 870b
 id: wtc2f01
 key: C
 localRawFile: /kern/wtc/wtc2f01.krn
+majorMinor: major
 meter: 2/4
+modulatingSubject: false
 nr: 1
 parts: 3
 subjectEndLineNumber: null

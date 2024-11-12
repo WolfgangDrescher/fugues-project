@@ -14,11 +14,15 @@ exposition:
 id: wtc1f07
 key: E-
 localRawFile: /kern/wtc/wtc1f07.krn
+majorMinor: major
 meter: 4/4
+modulatingSubject: false
 nr: 7
 parts: 3
 subjectEndBeat: 8
 subjectEndDeg: 3
+subjectEndKeyDeg: 1
 subjectEndLineNumber: 43
 subjectStartDeg: 5
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 7 in E-flat major

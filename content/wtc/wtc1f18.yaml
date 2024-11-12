@@ -17,11 +17,15 @@ exposition:
 id: wtc1f18
 key: g#
 localRawFile: /kern/wtc/wtc1f18.krn
+majorMinor: minor
 meter: 4/4
+modulatingSubject: true
 nr: 18
 parts: 4
 subjectEndBeat: 9
-subjectEndDeg: V:1
+subjectEndDeg: 1
+subjectEndKeyDeg: 5
 subjectEndLineNumber: 35
 subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 18 in G-sharp minor

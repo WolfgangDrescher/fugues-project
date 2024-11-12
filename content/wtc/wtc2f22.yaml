@@ -3,7 +3,9 @@ bwv: 891b
 id: wtc2f22
 key: b-
 localRawFile: /kern/wtc/wtc2f22.krn
+majorMinor: minor
 meter: 3/2
+modulatingSubject: false
 nr: 22
 parts: 4
 subjectEndLineNumber: null

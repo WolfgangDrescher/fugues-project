@@ -3,7 +3,9 @@ bwv: 887b
 id: wtc2f18
 key: g#
 localRawFile: /kern/wtc/wtc2f18.krn
+majorMinor: minor
 meter: 6/8
+modulatingSubject: false
 nr: 18
 parts: 3
 subjectEndLineNumber: null

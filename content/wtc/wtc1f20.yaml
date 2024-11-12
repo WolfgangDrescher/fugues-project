@@ -17,11 +17,15 @@ exposition:
 id: wtc1f20
 key: a
 localRawFile: /kern/wtc/wtc1f20.krn
+majorMinor: minor
 meter: 4/4
+modulatingSubject: false
 nr: 20
 parts: 4
 subjectEndBeat: 12.5
-subjectEndDeg: 5/V:1
+subjectEndDeg: 1
+subjectEndKeyDeg: 1
 subjectEndLineNumber: 54
 subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 20 in A minor

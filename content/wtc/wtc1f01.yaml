@@ -17,11 +17,15 @@ exposition:
 id: wtc1f01
 key: C
 localRawFile: /kern/wtc/wtc1f01.krn
+majorMinor: major
 meter: 4/4
+modulatingSubject: false
 nr: 1
 parts: 4
 subjectEndBeat: 6.5
 subjectEndDeg: 3
+subjectEndKeyDeg: 1
 subjectEndLineNumber: 34
 subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 1 in C major

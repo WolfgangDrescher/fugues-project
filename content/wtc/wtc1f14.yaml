@@ -17,11 +17,15 @@ exposition:
 id: wtc1f14
 key: f#
 localRawFile: /kern/wtc/wtc1f14.krn
+majorMinor: minor
 meter: 6/4
+modulatingSubject: false
 nr: 14
 parts: 4
 subjectEndBeat: 19
 subjectEndDeg: 1
+subjectEndKeyDeg: 1
 subjectEndLineNumber: 40
 subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 14 in F-sharp minor

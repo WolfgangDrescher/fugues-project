@@ -17,11 +17,15 @@ exposition:
 id: wtc1f16
 key: g
 localRawFile: /kern/wtc/wtc1f16.krn
+majorMinor: minor
 meter: 4/4
+modulatingSubject: false
 nr: 16
 parts: 4
 subjectEndBeat: 6.5
 subjectEndDeg: 3
+subjectEndKeyDeg: 1
 subjectEndLineNumber: 31
 subjectStartDeg: 5
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 16 in G minor

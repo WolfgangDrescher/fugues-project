@@ -3,7 +3,9 @@ bwv: 878b
 id: wtc2f09
 key: E
 localRawFile: /kern/wtc/wtc2f09.krn
+majorMinor: major
 meter: 4/2
+modulatingSubject: false
 nr: 9
 parts: 4
 subjectEndLineNumber: null

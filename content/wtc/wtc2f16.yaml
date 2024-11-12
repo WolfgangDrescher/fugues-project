@@ -3,7 +3,9 @@ bwv: 885b
 id: wtc2f16
 key: g
 localRawFile: /kern/wtc/wtc2f16.krn
+majorMinor: minor
 meter: 3/4
+modulatingSubject: false
 nr: 16
 parts: 4
 subjectEndLineNumber: null

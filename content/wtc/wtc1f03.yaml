@@ -14,11 +14,15 @@ exposition:
 id: wtc1f03
 key: C#
 localRawFile: /kern/wtc/wtc1f03.krn
+majorMinor: major
 meter: 4/4
+modulatingSubject: false
 nr: 3
 parts: 3
 subjectEndBeat: 9.5
 subjectEndDeg: 1
+subjectEndKeyDeg: 1
 subjectEndLineNumber: 42
 subjectStartDeg: 5
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 3 in C-sharp major

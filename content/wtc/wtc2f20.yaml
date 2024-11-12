@@ -3,7 +3,9 @@ bwv: 889b
 id: wtc2f20
 key: a
 localRawFile: /kern/wtc/wtc2f20.krn
+majorMinor: minor
 meter: 4/4
+modulatingSubject: false
 nr: 20
 parts: 3
 subjectEndLineNumber: null

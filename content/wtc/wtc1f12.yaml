@@ -17,11 +17,15 @@ exposition:
 id: wtc1f12
 key: f
 localRawFile: /kern/wtc/wtc1f12.krn
+majorMinor: minor
 meter: 4/4
+modulatingSubject: false
 nr: 12
 parts: 4
 subjectEndBeat: 13
 subjectEndDeg: 1
+subjectEndKeyDeg: 1
 subjectEndLineNumber: 33
 subjectStartDeg: 5
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 12 in F minor

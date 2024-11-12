@@ -3,7 +3,9 @@ bwv: 883b
 id: wtc2f14
 key: f#
 localRawFile: /kern/wtc/wtc2f14.krn
+majorMinor: minor
 meter: 4/4
+modulatingSubject: false
 nr: 14
 parts: 3
 subjectEndLineNumber: null

@@ -3,7 +3,9 @@ bwv: 880b
 id: wtc2f11
 key: F
 localRawFile: /kern/wtc/wtc2f11.krn
+majorMinor: major
 meter: 6/16
+modulatingSubject: false
 nr: 11
 parts: 3
 subjectEndLineNumber: null

@@ -3,7 +3,9 @@ bwv: 877b
 id: wtc2f08
 key: d#
 localRawFile: /kern/wtc/wtc2f08.krn
+majorMinor: minor
 meter: 4/4
+modulatingSubject: false
 nr: 8
 parts: 4
 subjectEndLineNumber: null

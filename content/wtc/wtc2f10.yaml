@@ -3,7 +3,9 @@ bwv: 879b
 id: wtc2f10
 key: e
 localRawFile: /kern/wtc/wtc2f10.krn
+majorMinor: minor
 meter: 2/2
+modulatingSubject: false
 nr: 10
 parts: 3
 subjectEndLineNumber: null

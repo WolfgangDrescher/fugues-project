@@ -14,11 +14,15 @@ exposition:
 id: wtc1f15
 key: G
 localRawFile: /kern/wtc/wtc1f15.krn
+majorMinor: major
 meter: 6/8
+modulatingSubject: false
 nr: 15
 parts: 3
 subjectEndBeat: 12
 subjectEndDeg: 7
+subjectEndKeyDeg: 1
 subjectEndLineNumber: 51
 subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 15 in G major

@@ -3,7 +3,9 @@ bwv: 872b
 id: wtc2f03
 key: C#
 localRawFile: /kern/wtc/wtc2f03.krn
+majorMinor: major
 meter: 4/4
+modulatingSubject: false
 nr: 3
 parts: 3
 subjectEndLineNumber: null

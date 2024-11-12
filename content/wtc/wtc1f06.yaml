@@ -14,11 +14,15 @@ exposition:
 id: wtc1f06
 key: d
 localRawFile: /kern/wtc/wtc1f06.krn
+majorMinor: minor
 meter: 3/4
+modulatingSubject: false
 nr: 6
 parts: 3
 subjectEndBeat: 6.5
 subjectEndDeg: 5
+subjectEndKeyDeg: 1
 subjectEndLineNumber: 32
 subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 6 in D minor

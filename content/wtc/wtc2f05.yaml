@@ -3,7 +3,9 @@ bwv: 874b
 id: wtc2f05
 key: D
 localRawFile: /kern/wtc/wtc2f05.krn
+majorMinor: major
 meter: 2/2
+modulatingSubject: false
 nr: 5
 parts: 4
 subjectEndLineNumber: null

@@ -14,12 +14,16 @@ exposition:
 id: wtc1f19
 key: A
 localRawFile: /kern/wtc/wtc1f19.krn
+majorMinor: major
 meter: 9/8
+modulatingSubject: true
 nr: 19
 parts: 3
 stretto: true
 subjectEndBeat: 4.5
 subjectEndDeg: '?'
+subjectEndKeyDeg: 5
 subjectEndLineNumber: 29
 subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 19 in A major

@@ -14,11 +14,15 @@ exposition:
 id: wtc1f08
 key: d#
 localRawFile: /kern/wtc/wtc1f08.krn
+majorMinor: minor
 meter: 4/4
+modulatingSubject: false
 nr: 8
 parts: 3
 subjectEndBeat: 10
 subjectEndDeg: 1
+subjectEndKeyDeg: 1
 subjectEndLineNumber: 31
 subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 8 in D-sharp minor

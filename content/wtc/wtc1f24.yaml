@@ -17,11 +17,15 @@ exposition:
 id: wtc1f24
 key: b
 localRawFile: /kern/wtc/wtc1f24.krn
+majorMinor: minor
 meter: 4/4
+modulatingSubject: false
 nr: 24
 parts: 4
 subjectEndBeat: 12.5
 subjectEndDeg: 5
+subjectEndKeyDeg: 1
 subjectEndLineNumber: null
 subjectStartDeg: 5
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 24 in B minor

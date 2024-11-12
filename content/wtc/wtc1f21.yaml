@@ -14,11 +14,15 @@ exposition:
 id: wtc1f21
 key: B-
 localRawFile: /kern/wtc/wtc1f21.krn
+majorMinor: major
 meter: 3/4
+modulatingSubject: false
 nr: 21
 parts: 3
 subjectEndBeat: 12.5
 subjectEndDeg: 3
+subjectEndKeyDeg: 1
 subjectEndLineNumber: 59
 subjectStartDeg: 5
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 1, Fugue 21 in B-flat major
