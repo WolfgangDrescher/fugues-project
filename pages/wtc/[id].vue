@@ -32,13 +32,13 @@ onMounted(async () => {
                 </Heading>
                 <div class="flex gap-2 items-center">
                     <div v-if="prevPiece">
-                        <UButton :to="localePath({ name: 'piece-id', params: { id: prevPiece.id }, hash: $route.hash })">
+                        <UButton :to="localePath({ name: 'wtc-id', params: { id: prevPiece.id }})">
                             <Icon name="heroicons:arrow-left-circle" class="text-xl" />
                             {{ $t('previous') }}
                         </UButton>
                     </div>
                     <div v-if="nextPiece">
-                        <UButton :to="localePath({ name: 'piece-id', params: { id: nextPiece.id }, hash: $route.hash })">
+                        <UButton :to="localePath({ name: 'wtc-id', params: { id: nextPiece.id }})">
                             {{ $t('next') }}
                             <Icon name="heroicons:arrow-right-circle" class="text-xl" />
                         </UButton>
