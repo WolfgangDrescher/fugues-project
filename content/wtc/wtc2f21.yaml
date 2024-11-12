@@ -1,5 +1,16 @@
+answer: tonal
 book: 2
 bwv: 890b
+exposition:
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 3
+    -
+        type: dux
+        voice: 1
 id: wtc2f21
 key: B-
 localRawFile: /kern/wtc/wtc2f21.krn
@@ -8,5 +19,10 @@ meter: 3/4
 modulatingSubject: false
 nr: 21
 parts: 3
-subjectEndLineNumber: null
+subjectEndBeat: 12.5
+subjectEndDeg: 3
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 45
+subjectStartDeg: 2
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 21 in B-flat major

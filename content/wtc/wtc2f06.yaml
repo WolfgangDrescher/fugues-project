@@ -1,5 +1,16 @@
+answer: real
 book: 2
 bwv: 875b
+exposition:
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 3
+    -
+        type: dux
+        voice: 1
 id: wtc2f06
 key: d
 localRawFile: /kern/wtc/wtc2f06.krn
@@ -8,5 +19,10 @@ meter: 4/4
 modulatingSubject: false
 nr: 6
 parts: 3
-subjectEndLineNumber: null
+subjectEndBeat: 8
+subjectEndDeg: 3
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 42
+subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 6 in D minor

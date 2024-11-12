@@ -1,5 +1,16 @@
+answer: tonal
 book: 2
 bwv: 872b
+exposition:
+    -
+        type: dux
+        voice: 1
+    -
+        type: comes
+        voice: 3
+    -
+        type: dux-inversion
+        voice: 2
 id: wtc2f03
 key: C#
 localRawFile: /kern/wtc/wtc2f03.krn
@@ -8,5 +19,10 @@ meter: 4/4
 modulatingSubject: false
 nr: 3
 parts: 3
-subjectEndLineNumber: null
+subjectEndBeat: 2.5
+subjectEndDeg: 3
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 22
+subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 3 in C-sharp major

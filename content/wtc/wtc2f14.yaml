@@ -1,5 +1,16 @@
+answer: tonal
 book: 2
 bwv: 883b
+exposition:
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 3
+    -
+        type: dux
+        voice: 1
 id: wtc2f14
 key: f#
 localRawFile: /kern/wtc/wtc2f14.krn
@@ -8,5 +19,10 @@ meter: 4/4
 modulatingSubject: false
 nr: 14
 parts: 3
-subjectEndLineNumber: null
+subjectEndBeat: 13.5
+subjectEndDeg: 1
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 41
+subjectStartDeg: 5
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 14 in F-sharp minor

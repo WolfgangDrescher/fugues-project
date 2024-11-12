@@ -1,5 +1,19 @@
+answer: tonal
 book: 2
 bwv: 886b
+exposition:
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 4
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 1
 id: wtc2f17
 key: A-
 localRawFile: /kern/wtc/wtc2f17.krn
@@ -8,5 +22,10 @@ meter: 4/4
 modulatingSubject: false
 nr: 17
 parts: 4
-subjectEndLineNumber: null
+subjectEndBeat: 8.5
+subjectEndDeg: 3
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 42
+subjectStartDeg: 5
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 17 in A-flat major

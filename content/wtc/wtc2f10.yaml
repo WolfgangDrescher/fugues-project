@@ -1,5 +1,16 @@
+answer: real
 book: 2
 bwv: 879b
+exposition:
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 2
+    -
+        type: dux
+        voice: 1
 id: wtc2f10
 key: e
 localRawFile: /kern/wtc/wtc2f10.krn
@@ -8,5 +19,10 @@ meter: 2/2
 modulatingSubject: false
 nr: 10
 parts: 3
+subjectEndBeat: 24.33333333
+subjectEndDeg: 1
+subjectEndKeyDeg: 1
 subjectEndLineNumber: null
+subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 10 in E minor

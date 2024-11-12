@@ -1,5 +1,19 @@
+answer: real
 book: 2
 bwv: 874b
+exposition:
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 3
+    -
+        type: dux
+        voice: 4
+    -
+        type: comes
+        voice: 1
 id: wtc2f05
 key: D
 localRawFile: /kern/wtc/wtc2f05.krn
@@ -8,5 +22,10 @@ meter: 2/2
 modulatingSubject: false
 nr: 5
 parts: 4
-subjectEndLineNumber: null
+subjectEndBeat: 6.5
+subjectEndDeg: 3/1 ???
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 28
+subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 5 in D major

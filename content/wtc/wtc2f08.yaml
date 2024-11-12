@@ -1,5 +1,19 @@
+answer: real
 book: 2
 bwv: 877b
+exposition:
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 2
+    -
+        type: dux
+        voice: 1
+    -
+        type: comes
+        voice: 4
 id: wtc2f08
 key: d#
 localRawFile: /kern/wtc/wtc2f08.krn
@@ -8,5 +22,10 @@ meter: 4/4
 modulatingSubject: false
 nr: 8
 parts: 4
-subjectEndLineNumber: null
+subjectEndBeat: 8.5
+subjectEndDeg: 3
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 34
+subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 8 in D-sharp minor

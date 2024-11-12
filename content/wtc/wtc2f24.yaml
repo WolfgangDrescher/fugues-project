@@ -1,5 +1,16 @@
+answer: tonal
 book: 2
 bwv: 893b
+exposition:
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 3
+    -
+        type: dux
+        voice: 1
 id: wtc2f24
 key: b
 localRawFile: /kern/wtc/wtc2f24.krn
@@ -8,5 +19,10 @@ meter: 3/8
 modulatingSubject: false
 nr: 24
 parts: 3
-subjectEndLineNumber: null
+subjectEndBeat: 9
+subjectEndDeg: 3
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 45
+subjectStartDeg: 5
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 24 in B minor

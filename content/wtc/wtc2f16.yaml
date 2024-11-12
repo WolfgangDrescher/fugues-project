@@ -1,5 +1,19 @@
+answer: tonal
 book: 2
 bwv: 885b
+exposition:
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 3
+    -
+        type: dux
+        voice: 4
+    -
+        type: comes
+        voice: 1
 id: wtc2f16
 key: g
 localRawFile: /kern/wtc/wtc2f16.krn
@@ -8,5 +22,10 @@ meter: 3/4
 modulatingSubject: false
 nr: 16
 parts: 4
-subjectEndLineNumber: null
+subjectEndBeat: 13
+subjectEndDeg: 3
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 41
+subjectStartDeg: 5
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 16 in G minor

@@ -1,5 +1,16 @@
+answer: tonal
 book: 2
 bwv: 880b
+exposition:
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 2
+    -
+        type: dux
+        voice: 1
 id: wtc2f11
 key: F
 localRawFile: /kern/wtc/wtc2f11.krn
@@ -8,5 +19,10 @@ meter: 6/16
 modulatingSubject: false
 nr: 11
 parts: 3
-subjectEndLineNumber: null
+subjectEndBeat: 6.75
+subjectEndDeg: 3/7 ????
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 45
+subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 11 in F major

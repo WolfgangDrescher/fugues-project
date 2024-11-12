@@ -1,5 +1,19 @@
+answer: real
 book: 2
 bwv: 891b
+exposition:
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 4
+    -
+        type: dux
+        voice: 2
+    -
+        type: comes
+        voice: 1
 id: wtc2f22
 key: b-
 localRawFile: /kern/wtc/wtc2f22.krn
@@ -8,5 +22,10 @@ meter: 3/2
 modulatingSubject: false
 nr: 22
 parts: 4
-subjectEndLineNumber: null
+subjectEndBeat: 24
+subjectEndDeg: 3
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 49
+subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 22 in B-flat minor

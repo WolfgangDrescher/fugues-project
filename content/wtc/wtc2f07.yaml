@@ -1,5 +1,19 @@
+answer: tonal
 book: 2
 bwv: 876b
+exposition:
+    -
+        type: dux
+        voice: 1
+    -
+        type: comes
+        voice: 2
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 4
 id: wtc2f07
 key: E-
 localRawFile: /kern/wtc/wtc2f07.krn
@@ -8,5 +22,10 @@ meter: 2/2
 modulatingSubject: false
 nr: 7
 parts: 4
-subjectEndLineNumber: null
+subjectEndBeat: 24
+subjectEndDeg: 1
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 42
+subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 7 in E-flat major

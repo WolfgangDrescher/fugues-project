@@ -1,5 +1,16 @@
+answer: tonal
 book: 2
 bwv: 881b
+exposition:
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 2
+    -
+        type: dux
+        voice: 1
 id: wtc2f12
 key: f
 localRawFile: /kern/wtc/wtc2f12.krn
@@ -8,5 +19,10 @@ meter: 2/4
 modulatingSubject: false
 nr: 12
 parts: 3
-subjectEndLineNumber: null
+subjectEndBeat: 8
+subjectEndDeg: 3
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 45
+subjectStartDeg: 5
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 12 in F minor

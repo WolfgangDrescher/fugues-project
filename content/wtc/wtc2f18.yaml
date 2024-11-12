@@ -1,5 +1,16 @@
+answer: real
 book: 2
 bwv: 887b
+exposition:
+    -
+        type: dux
+        voice: 3
+    -
+        type: comes
+        voice: 2
+    -
+        type: dux
+        voice: 1
 id: wtc2f18
 key: g#
 localRawFile: /kern/wtc/wtc2f18.krn
@@ -8,5 +19,10 @@ meter: 6/8
 modulatingSubject: false
 nr: 18
 parts: 3
-subjectEndLineNumber: null
+subjectEndBeat: 12
+subjectEndDeg: 3
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 44
+subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 18 in G-sharp minor

@@ -1,5 +1,16 @@
+answer: real
 book: 2
 bwv: 873b
+exposition:
+    -
+        type: dux
+        voice: 1
+    -
+        type: comes
+        voice: 3
+    -
+        type: dux
+        voice: 2
 id: wtc2f04
 key: c#
 localRawFile: /kern/wtc/wtc2f04.krn
@@ -8,5 +19,10 @@ meter: 12/16
 modulatingSubject: false
 nr: 4
 parts: 3
-subjectEndLineNumber: null
+subjectEndBeat: 4.5
+subjectEndDeg: 3
+subjectEndKeyDeg: 1
+subjectEndLineNumber: 35
+subjectStartDeg: 1
+subjectStartKeyDeg: 1
 title: The Well-Tempered Clavier, Book 2, Fugue 4 in C-sharp minor
