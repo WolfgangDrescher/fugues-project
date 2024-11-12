@@ -57,6 +57,8 @@ onMounted(async () => {
                 </div>
             </div>
 
+            <FugueDisposition :disposition="piece.exposition" />
+
             <VerovioCanvas
                 v-if="data"
                 :data="data"
