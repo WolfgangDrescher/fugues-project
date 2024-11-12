@@ -146,6 +146,16 @@ function resetFilters() {
                 </UFormGroup>
             </div>
             <div>
+                <UFormGroup :label="$t('majorMinor')">
+                    <USelectMenu v-model="filters.majorMinor" :options="majorMinor" size="xs" class="w-24" />
+                </UFormGroup>
+            </div>
+            <div>
+                <UFormGroup :label="$t('modulatingSubject')">
+                    <UCheckbox v-model="filters.modulatingSubject" :label="$t('modulatingSubject')" size="xs" class="w-24" />
+                </UFormGroup>
+            </div>
+            <div>
                 <UButton icon="i-heroicons-funnel" color="gray" size="xs" @click="resetFilters">
                     {{ $t('reset') }}
                 </UButton>
