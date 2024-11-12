@@ -1,5 +1,6 @@
 wtc1f01:
     answer: real
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -13,6 +14,7 @@ wtc1f01:
 
 wtc1f02:
     answer: tonal
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -25,6 +27,7 @@ wtc1f02:
 
 wtc1f03:
     answer: tonal
+    category: []
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -37,6 +40,7 @@ wtc1f03:
 
 wtc1f04:
     answer: real
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -51,6 +55,7 @@ wtc1f04:
 
 wtc1f05:
     answer: real
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -64,6 +69,7 @@ wtc1f05:
 
 wtc1f06:
     answer: real
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 5
@@ -76,6 +82,7 @@ wtc1f06:
 
 wtc1f07:
     answer: tonal
+    category: []
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -88,6 +95,7 @@ wtc1f07:
     
 wtc1f08:
     answer: tonal
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -100,6 +108,7 @@ wtc1f08:
 
 wtc1f09:
     answer: real
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -112,6 +121,7 @@ wtc1f09:
 
 wtc1f10:
     answer: real
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -123,6 +133,7 @@ wtc1f10:
 
 wtc1f11:
     answer: tonal
+    category: []
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -135,6 +146,7 @@ wtc1f11:
 
 wtc1f12:
     answer: tonal
+    category: []
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -148,6 +160,7 @@ wtc1f12:
 
 wtc1f13:
     answer: tonal
+    category: []
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -160,6 +173,7 @@ wtc1f13:
 
 wtc1f14:
     answer: real
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -173,6 +187,7 @@ wtc1f14:
 
 wtc1f15:
     answer: real
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 7
@@ -185,6 +200,7 @@ wtc1f15:
 
 wtc1f16:
     answer: tonal
+    category: []
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -198,6 +214,7 @@ wtc1f16:
 
 wtc1f17:
     answer: tonal
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 5
@@ -211,6 +228,7 @@ wtc1f17:
 
 wtc1f18:
     answer: tonal-extra
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -225,6 +243,7 @@ wtc1f18:
 wtc1f19:
     stretto: true
     answer: tonal
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: '?'
@@ -237,6 +256,7 @@ wtc1f19:
 
 wtc1f20:
     answer: real
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -250,6 +270,7 @@ wtc1f20:
 
 wtc1f21:
     answer: tonal
+    category: []
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -262,6 +283,7 @@ wtc1f21:
 
 wtc1f22:
     answer: tonal
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -276,6 +298,7 @@ wtc1f22:
 
 wtc1f23:
     answer: tonal-extra
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -289,6 +312,7 @@ wtc1f23:
 
 wtc1f24:
     answer: tonal
+    category: []
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 5
@@ -302,6 +326,7 @@ wtc1f24:
 
 wtc2f01:
     answer: tonal
+    category: [figures]
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -314,6 +339,7 @@ wtc2f01:
 
 wtc2f02:
     answer: tonal
+    category: [arpeggio]
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -327,6 +353,7 @@ wtc2f02:
 
 wtc2f03:
     answer: tonal
+    category: [arpeggio]
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -339,6 +366,7 @@ wtc2f03:
 
 wtc2f04:
     answer: real
+    category: [gigue]
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -351,6 +379,7 @@ wtc2f04:
 
 wtc2f05:
     answer: real
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3/1 ???
@@ -364,6 +393,7 @@ wtc2f05:
 
 wtc2f06:
     answer: real
+    category: [contrast, chromaticism]
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -376,6 +406,7 @@ wtc2f06:
 
 wtc2f07:
     answer: tonal
+    category: [vocal-linearity]
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -389,6 +420,7 @@ wtc2f07:
 
 wtc2f08:
     answer: real
+    category: [vocal-linearity]
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -402,6 +434,7 @@ wtc2f08:
 
 wtc2f09:
     answer: real
+    category: [vocal-linearity]
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -415,6 +448,7 @@ wtc2f09:
 
 wtc2f10:
     answer: real
+    category: [profiled-rhythm]
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -427,6 +461,7 @@ wtc2f10:
 
 wtc2f11:
     answer: tonal
+    category: [figures, gigue]
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3/7 ????
@@ -439,6 +474,7 @@ wtc2f11:
 
 wtc2f12:
     answer: tonal
+    category: [figures, lament-with-leaps]
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -451,6 +487,7 @@ wtc2f12:
 
 wtc2f13:
     answer: real
+    category: [profiled-rhythm, contrast]
     subjectStartDeg: 7
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -463,6 +500,7 @@ wtc2f13:
 
 wtc2f14:
     answer: tonal
+    category: [arpeggio]
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 1
@@ -475,6 +513,7 @@ wtc2f14:
 
 wtc2f15:
     answer: tonal
+    category: [figures]
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -487,6 +526,7 @@ wtc2f15:
 
 wtc2f16:
     answer: tonal
+    category: [profiled-rhythm]
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -500,6 +540,7 @@ wtc2f16:
 
 wtc2f17:
     answer: tonal
+    category: []
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -513,6 +554,7 @@ wtc2f17:
 
 wtc2f18:
     answer: real
+    category: [gigue]
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -525,6 +567,7 @@ wtc2f18:
 
 wtc2f19:
     answer: real
+    category: [figures]
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -537,6 +580,7 @@ wtc2f19:
 
 wtc2f20:
     answer: tonal
+    category: [arpeggio, lament-with-leaps]
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 3/1 ???
@@ -549,6 +593,7 @@ wtc2f20:
 
 wtc2f21:
     answer: tonal
+    category: [figures]
     subjectStartDeg: 2
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -561,6 +606,7 @@ wtc2f21:
 
 wtc2f22:
     answer: real
+    category: [vocal-linearity, profiled-rhythm]
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -574,6 +620,7 @@ wtc2f22:
 
 wtc2f23:
     answer: real
+    category: []
     subjectStartDeg: 1
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
@@ -587,6 +634,7 @@ wtc2f23:
 
 wtc2f24:
     answer: tonal
+    category: [arpeggio]
     subjectStartDeg: 5
     subjectStartKeyDeg: 1
     subjectEndDeg: 3
