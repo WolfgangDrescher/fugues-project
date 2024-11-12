@@ -1,7 +1,9 @@
 wtc1f01:
     answer: real
     subjectStartDeg: 1
+    subjectStartKeyDeg: 1
     subjectEndDeg: 3
+    subjectEndKeyDeg: 1
     subjectEndBeat: 6.5
     exposition:
         - { voice: 3, type: dux }
@@ -12,7 +14,9 @@ wtc1f01:
 wtc1f02:
     answer: tonal
     subjectStartDeg: 1
+    subjectStartKeyDeg: 1
     subjectEndDeg: 3
+    subjectEndKeyDeg: 1
     subjectEndBeat: 8.5
     exposition:
         - { voice: 2, type: dux }
@@ -22,7 +26,9 @@ wtc1f02:
 wtc1f03:
     answer: tonal
     subjectStartDeg: 5
+    subjectStartKeyDeg: 1
     subjectEndDeg: 1
+    subjectEndKeyDeg: 1
     subjectEndBeat: 9.5
     exposition:
         - { voice: 3, type: dux }
@@ -32,7 +38,9 @@ wtc1f03:
 wtc1f04:
     answer: real
     subjectStartDeg: 1
+    subjectStartKeyDeg: 1
     subjectEndDeg: 1
+    subjectEndKeyDeg: 1
     subjectEndBeat: 12
     exposition:
         - { voice: 1, type: dux }
@@ -44,7 +52,9 @@ wtc1f04:
 wtc1f05:
     answer: real
     subjectStartDeg: 1
+    subjectStartKeyDeg: 1
     subjectEndDeg: 3
+    subjectEndKeyDeg: 1
     subjectEndBeat: 5
     exposition:
         - { voice: 1, type: dux }
@@ -55,7 +65,9 @@ wtc1f05:
 wtc1f06:
     answer: real
     subjectStartDeg: 1
+    subjectStartKeyDeg: 1
     subjectEndDeg: 5
+    subjectEndKeyDeg: 1
     subjectEndBeat: 6.5
     exposition:
         - { voice: 3, type: dux }
@@ -65,7 +77,9 @@ wtc1f06:
 wtc1f07:
     answer: tonal
     subjectStartDeg: 5
+    subjectStartKeyDeg: 1
     subjectEndDeg: 3
+    subjectEndKeyDeg: 1
     subjectEndBeat: 8
     exposition:
         - { voice: 3, type: dux }
@@ -75,7 +89,9 @@ wtc1f07:
 wtc1f08:
     answer: tonal
     subjectStartDeg: 1
+    subjectStartKeyDeg: 1
     subjectEndDeg: 1
+    subjectEndKeyDeg: 1
     subjectEndBeat: 10
     exposition:
         - { voice: 2, type: dux }
@@ -85,7 +101,9 @@ wtc1f08:
 wtc1f09:
     answer: real
     subjectStartDeg: 1
+    subjectStartKeyDeg: 1
     subjectEndDeg: 1
+    subjectEndKeyDeg: 1
     subjectEndBeat: 5.5
     exposition:
         - { voice: 2, type: dux }
@@ -95,7 +113,9 @@ wtc1f09:
 wtc1f10:
     answer: real
     subjectStartDeg: 1
-    subjectEndDeg: V:3,
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 3
+    subjectEndKeyDeg: 5
     subjectEndBeat: 6
     exposition:
         - { voice: 2, type: dux }
@@ -104,7 +124,9 @@ wtc1f10:
 wtc1f11:
     answer: tonal
     subjectStartDeg: 5
+    subjectStartKeyDeg: 1
     subjectEndDeg: 3
+    subjectEndKeyDeg: 1
     subjectEndBeat: 6
     exposition:
         - { voice: 2, type: dux }
@@ -114,7 +136,9 @@ wtc1f11:
 wtc1f12:
     answer: tonal
     subjectStartDeg: 5
+    subjectStartKeyDeg: 1
     subjectEndDeg: 1
+    subjectEndKeyDeg: 1
     subjectEndBeat: 13
     exposition:
         - { voice: 2, type: dux }
@@ -125,7 +149,9 @@ wtc1f12:
 wtc1f13:
     answer: tonal
     subjectStartDeg: 5
+    subjectStartKeyDeg: 1
     subjectEndDeg: 3
+    subjectEndKeyDeg: 1
     subjectEndBeat: 8.5
     exposition:
         - { voice: 3, type: dux }
@@ -135,7 +161,9 @@ wtc1f13:
 wtc1f14:
     answer: real
     subjectStartDeg: 1
+    subjectStartKeyDeg: 1
     subjectEndDeg: 1
+    subjectEndKeyDeg: 1
     subjectEndBeat: 19
     exposition:
         - { voice: 2, type: dux }
@@ -146,7 +174,9 @@ wtc1f14:
 wtc1f15:
     answer: real
     subjectStartDeg: 1
+    subjectStartKeyDeg: 1
     subjectEndDeg: 7
+    subjectEndKeyDeg: 1
     subjectEndBeat: 12
     exposition:
         - { voice: 3, type: dux }
@@ -156,7 +186,9 @@ wtc1f15:
 wtc1f16:
     answer: tonal
     subjectStartDeg: 5
+    subjectStartKeyDeg: 1
     subjectEndDeg: 3
+    subjectEndKeyDeg: 1
     subjectEndBeat: 6.5
     exposition:
         - { voice: 3, type: dux }
@@ -167,7 +199,9 @@ wtc1f16:
 wtc1f17:
     answer: tonal
     subjectStartDeg: 1
+    subjectStartKeyDeg: 1
     subjectEndDeg: 5
+    subjectEndKeyDeg: 1
     subjectEndBeat: 5
     exposition:
         - { voice: 2, type: dux }
@@ -178,7 +212,9 @@ wtc1f17:
 wtc1f18:
     answer: tonal-extra
     subjectStartDeg: 1
-    subjectEndDeg: V:1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 1
+    subjectEndKeyDeg: 5
     subjectEndBeat: 9
     exposition:
         - { voice: 2, type: dux }
@@ -190,7 +226,9 @@ wtc1f19:
     stretto: true
     answer: tonal
     subjectStartDeg: 1
+    subjectStartKeyDeg: 1
     subjectEndDeg: '?'
+    subjectEndKeyDeg: 5
     subjectEndBeat: 4.5
     exposition:
         - { voice: 3, type: dux }
@@ -200,7 +238,9 @@ wtc1f19:
 wtc1f20:
     answer: real
     subjectStartDeg: 1
-    subjectEndDeg: 5/V:1
+    subjectStartKeyDeg: 1
+    subjectEndDeg: 1
+    subjectEndKeyDeg: 1
     subjectEndBeat: 12.5
     exposition:
         - { voice: 3, type: dux }
@@ -211,7 +251,9 @@ wtc1f20:
 wtc1f21:
     answer: tonal
     subjectStartDeg: 5
+    subjectStartKeyDeg: 1
     subjectEndDeg: 3
+    subjectEndKeyDeg: 1
     subjectEndBeat: 12.5
     exposition:
         - { voice: 3, type: dux }
@@ -221,7 +263,9 @@ wtc1f21:
 wtc1f22:
     answer: tonal
     subjectStartDeg: 1
+    subjectStartKeyDeg: 1
     subjectEndDeg: 3
+    subjectEndKeyDeg: 1
     subjectEndBeat: 8
     exposition:
         - { voice: 5, type: dux }
@@ -233,7 +277,9 @@ wtc1f22:
 wtc1f23:
     answer: tonal-extra
     subjectStartDeg: 1
+    subjectStartKeyDeg: 1
     subjectEndDeg: 1
+    subjectEndKeyDeg: 1
     subjectEndBeat: 8.5
     exposition:
         - { voice: 2, type: dux }
@@ -244,7 +290,9 @@ wtc1f23:
 wtc1f24:
     answer: tonal
     subjectStartDeg: 5
+    subjectStartKeyDeg: 1
     subjectEndDeg: 5
+    subjectEndKeyDeg: 1
     subjectEndBeat: 12.5
     exposition:
         - { voice: 3, type: dux }
