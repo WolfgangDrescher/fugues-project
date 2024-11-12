@@ -94,7 +94,7 @@ const pieces = data.value.map(fugue => ({
     subjectStartKeyDeg: fugue.subjectStartKeyDeg,
     subjectEndDeg: fugue.subjectEndDeg,
     subjectEndKeyDeg: fugue.subjectEndKeyDeg,
-    subjectDeg: `${fugue.subjectStartDeg ?? ''} – ${fugue.subjectEndDeg ?? ''}`,
+    subjectDeg: getSubjectDegString(fugue),
     horizontal: fugue.exposition?.map(a => getVoiceName(a.voice, fugue.parts)).join(', '),
     majorMinor: fugue.majorMinor,
     modulatingSubject: fugue.modulatingSubject,
@@ -189,6 +189,11 @@ function resetFilters() {
             <template #subject-data="{ row }">
                 <div class="max-w-96">
                     <WtcSubjectScore :key="row.id" :piece="row._piece" />
+                </div>
+            </template>
+            <template #subjectDeg-data="{ row }">
+                <div class="font-mono text-xs">
+                    {{ row.subjectDeg }}
                 </div>
             </template>
             <template #vertical-data="{ row }">
