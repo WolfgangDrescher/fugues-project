@@ -18,7 +18,7 @@ const { stop } = useIntersectionObserver(target, async ([{ isIntersecting }], ob
             if (props.piece.subjectEndLineNumber) {
                 filters.push(`myank -l 1-${props.piece.subjectEndLineNumber}`);
             } else {
-                filters.push(`myank -m 1-4`);
+                filters.push(`myank -m 0-4`);
             }
             data.value = `${response}\n${filters.map(filter => `!!!filter: ${filter}`).join('\n')}`;
         } catch (e) {
