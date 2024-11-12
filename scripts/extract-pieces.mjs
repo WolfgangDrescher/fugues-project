@@ -72,6 +72,8 @@ getFiles(pathToKernScores).forEach(file => {
         subjectEndLineNumber: null,
     }, wtcData[id] ?? {});
 
+    config.modulatingSubject = config.subjectStartKeyDeg !== config.subjectEndKeyDeg;
+
     const stdout = execSync(`cat ${file} | lnnr | beat -ac | extractxx -I kern | ridx -LGTMId`).toString().trim();
     const lines = stdout.split('\n');
     for (let i = 0; i < lines.length - 1; i++) {
