@@ -57,6 +57,10 @@ const columns = [
         key: 'modulatingSubject',
         label: t('modulatingSubject'),
     },
+    {
+        key: 'category',
+        label: t('category'),
+    },
 ];
 
 function getVoiceName(num, voicesCount) {
@@ -90,6 +94,7 @@ const pieces = data.value.map(fugue => ({
     parts: fugue.parts,
     meter: fugue.meter,
     answer: fugue.answer,
+    category: fugue.category,
     subjectStartDeg: fugue.subjectStartDeg,
     subjectStartKeyDeg: fugue.subjectStartKeyDeg,
     subjectEndDeg: fugue.subjectEndDeg,
@@ -109,6 +114,7 @@ const defaultFilters = {
     answer: null,
     majorMinor: null,
     modulatingSubject: null,
+    category: null,
 };
 const filters = reactive({ ...defaultFilters });
 
@@ -116,6 +122,7 @@ const keys = [...new Set(data.value.map(item => item.key))];
 const parts = [...new Set(data.value.map(item => item.parts))].sort();
 const answers = [...new Set(data.value.map(item => item.answer).filter(a => a))];
 const majorMinor = [...new Set(data.value.map(item => item.majorMinor).filter(a => a))];
+const categories = [...new Set(data.value.flatMap(item => item.category).filter(a => a))];
 
 const filteredPieces = computed(() => {
     return pieces.filter(item => {
@@ -125,6 +132,7 @@ const filteredPieces = computed(() => {
             && (!filters.answer || filters.answer === item.answer)
             && (!filters.majorMinor || filters.majorMinor === item.majorMinor)
             && (!filters.modulatingSubject || item.modulatingSubject)
+            && (!filters.category || item.category.includes(filters.category))
         );
     });
 });
@@ -164,6 +172,11 @@ function resetFilters() {
                 </UFormGroup>
             </div>
             <div>
+                <UFormGroup :label="$t('categories')">
+                    <USelectMenu v-model="filters.category" :options="categories" size="xs" class="w-24" />
+                </UFormGroup>
+            </div>
+            <div>
                 <UButton icon="i-heroicons-funnel" color="gray" size="xs" @click="resetFilters">
                     {{ $t('reset') }}
                 </UButton>
@@ -198,6 +211,11 @@ function resetFilters() {
             </template>
             <template #vertical-data="{ row }">
                 <pre v-text="row._piece.exposition?.toSorted((a, b) => b.voice - a.voice).map(a => a.type.substring(0, 1).toUpperCase()).join('\n')"></pre>
+            </template>
+            <template #category-data="{ row }">
+                <div class="flex gap-1">
+                    <UBadge v-for="category in row.category" :label="category" size="xs" />
+                </div>
             </template>
             <template #disposition-data="{ row }">
                 <FugueDisposition :disposition="row._piece.exposition" compact />
