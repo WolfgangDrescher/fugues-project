@@ -10,7 +10,7 @@ if (!piece.value) {
     });
 }
 
-const { data: surroundData } = await useAsyncData(`wtc/${id}/surround`, () => queryContent('/wtc').only(['_path', 'id']).findSurround(piece.value._path))
+const { data: surroundData } = await useAsyncData(`wtc/${id}/surround`, () => queryContent('/wtc/').only(['_path', 'id']).findSurround(piece.value._path))
 const [prevPiece, nextPiece] = surroundData.value;
 
 const data = ref(null);
