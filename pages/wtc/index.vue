@@ -61,6 +61,10 @@ const columns = [
         key: 'category',
         label: t('category'),
     },
+    {
+        key: 'codetta',
+        label: t('codetta'),
+    },
 ];
 
 function getVoiceName(num, voicesCount) {
@@ -103,6 +107,7 @@ const pieces = data.value.map(fugue => ({
     horizontal: fugue.exposition?.map(a => getVoiceName(a.voice, fugue.parts)).join(', '),
     majorMinor: fugue.majorMinor,
     modulatingSubject: fugue.modulatingSubject,
+    codetta: fugue.codetta,
 }));
 
 const selectedColumns = ref(columns);
@@ -115,6 +120,7 @@ const defaultFilters = {
     majorMinor: null,
     modulatingSubject: null,
     category: null,
+    codetta: null,
 };
 const filters = reactive({ ...defaultFilters });
 
@@ -133,6 +139,7 @@ const filteredPieces = computed(() => {
             && (!filters.majorMinor || filters.majorMinor === item.majorMinor)
             && (!filters.modulatingSubject || item.modulatingSubject)
             && (!filters.category || item.category.includes(filters.category))
+            && (filters.codetta === null || item.codetta === filters.codetta)
         );
     });
 });
@@ -174,6 +181,11 @@ function resetFilters() {
             <div>
                 <UFormGroup :label="$t('categories')">
                     <USelectMenu v-model="filters.category" :options="categories" size="xs" class="w-24" />
+                </UFormGroup>
+            </div>
+            <div>
+                <UFormGroup>
+                    <UCheckbox v-model="filters.codetta" :label="$t('codetta')"/>
                 </UFormGroup>
             </div>
             <div>
