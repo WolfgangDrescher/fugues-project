@@ -21,6 +21,18 @@ onMounted(async () => {
     }
     data.value = await response.text();
 });
+
+const filters = reactive({
+    transposeToC: false,
+});
+
+const formattedData = computed(() => {
+    const applyFilters = []
+    if (filters.transposeToC) {
+        applyFilters.push(`transpose -k ${piece.value.majorMinor === 'major' ? 'C' : 'c'}`);
+    }
+    return data.value ? `${data.value}\n${applyFilters.map(filter => `!!!filter: ${filter}`).join('\n')}` : null;
+});
 </script>
 
 <template>
@@ -59,9 +71,13 @@ onMounted(async () => {
 
             <FugueDisposition :disposition="piece.exposition" />
 
+            <div>
+                <UCheckbox v-model="filters.transposeToC" :label="$t('transposeToC')" />
+            </div>
+
             <VerovioCanvas
-                v-if="data"
-                :data="data"
+                v-if="formattedData"
+                :data="formattedData"
                 :options="{
                     spacingSystem: 15,
                     pageMarginLeft: 30,
