@@ -7,10 +7,10 @@ wtc1f01:
     subjectEndKeyDeg: 1
     subjectEndBeat: 6.5
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 4, type: comes }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 4, beat: 6.5, type: comes }
+        - { voice: 2, beat: 12.5, type: comes }
+        - { voice: 1, beat: 18.5, type: dux }
 
 wtc1f02:
     answer: tonal
@@ -21,9 +21,10 @@ wtc1f02:
     subjectEndKeyDeg: 1
     subjectEndBeat: 8.5
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 8.5, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 24.5, type: dux }
 
 wtc1f03:
     answer: tonal
@@ -34,9 +35,9 @@ wtc1f03:
     subjectEndKeyDeg: 1
     subjectEndBeat: 9.5
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 9.5, type: comes }
+        - { voice: 1, beat: 17.5, type: dux }
 
 wtc1f04:
     answer: real
@@ -47,11 +48,12 @@ wtc1f04:
     subjectEndKeyDeg: 1
     subjectEndBeat: 12
     exposition:
-        - { voice: 1, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 3, type: dux }
-        - { voice: 4, type: comes }
-        - { voice: 5, type: dux }
+        - { voice: 1, beat: 0, type: dux }
+        - { voice: 2, beat: 12, type: comes }
+        - { voice: 3, beat: 24, type: dux } # start with rest
+        - { type: codetta }
+        - { voice: 4, beat: 44, type: comes } # start with rest
+        - { voice: 5, beat: 52, type: dux } # start with rest
 
 wtc1f05:
     answer: real
@@ -62,10 +64,11 @@ wtc1f05:
     subjectEndKeyDeg: 1
     subjectEndBeat: 5
     exposition:
-        - { voice: 1, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 3, type: dux }
-        - { voice: 4, type: comes }
+        - { voice: 1, beat: 0, type: dux }
+        - { voice: 2, beat: 5, type: comes }
+        - { type: codetta }
+        - { voice: 3, beat: 13, type: dux }
+        - { voice: 4, beat: 17, type: comes }
 
 wtc1f06:
     answer: real
@@ -76,9 +79,10 @@ wtc1f06:
     subjectEndKeyDeg: 1
     subjectEndBeat: 6.5
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 6.5, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 15.5, type: dux }
 
 wtc1f07:
     answer: tonal
@@ -89,9 +93,10 @@ wtc1f07:
     subjectEndKeyDeg: 1
     subjectEndBeat: 8
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 8, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 20, type: dux }
     
 wtc1f08:
     answer: tonal
@@ -102,9 +107,10 @@ wtc1f08:
     subjectEndKeyDeg: 1
     subjectEndBeat: 10
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 10, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 28, type: dux }
 
 wtc1f09:
     answer: real
@@ -115,9 +121,10 @@ wtc1f09:
     subjectEndKeyDeg: 1
     subjectEndBeat: 5.5
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 5.5, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 11.5, type: dux }
 
 wtc1f10:
     answer: real
@@ -128,8 +135,8 @@ wtc1f10:
     subjectEndKeyDeg: 5
     subjectEndBeat: 6
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 1, type: comes }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 1, beat: 6, type: comes }
 
 wtc1f11:
     answer: tonal
@@ -140,9 +147,10 @@ wtc1f11:
     subjectEndKeyDeg: 1
     subjectEndBeat: 6
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 6, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 13.5, type: dux }
 
 wtc1f12:
     answer: tonal
@@ -153,10 +161,11 @@ wtc1f12:
     subjectEndKeyDeg: 1
     subjectEndBeat: 13
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 1, type: dux }
-        - { voice: 4, type: dux }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 13, type: comes }
+        - { voice: 1, beat: 25, type: dux }
+        - { type: codetta }
+        - { voice: 4, beat: 49, type: dux }
 
 wtc1f13:
     answer: tonal
@@ -167,9 +176,9 @@ wtc1f13:
     subjectEndKeyDeg: 1
     subjectEndBeat: 8.5
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 8.5, type: comes }
+        - { voice: 1, beat: 16.5, type: dux }
 
 wtc1f14:
     answer: real
@@ -180,10 +189,12 @@ wtc1f14:
     subjectEndKeyDeg: 1
     subjectEndBeat: 19
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 1, type: dux }
-        - { voice: 4, type: dux }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 19, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 43, type: dux }
+        - { type: codetta }
+        - { voice: 4, beat: 85, type: dux }
 
 wtc1f15:
     answer: real
@@ -194,9 +205,10 @@ wtc1f15:
     subjectEndKeyDeg: 1
     subjectEndBeat: 12
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 12, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 30, type: dux }
 
 wtc1f16:
     answer: tonal
@@ -207,10 +219,11 @@ wtc1f16:
     subjectEndKeyDeg: 1
     subjectEndBeat: 6.5
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 4, type: comes }
-        - { voice: 1, type: dux }
-        - { voice: 2, type: comes }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 4, beat: 6.5, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 16.5, type: dux }
+        - { voice: 2, beat: 22.5, type: comes }
 
 wtc1f17:
     answer: tonal
@@ -221,10 +234,11 @@ wtc1f17:
     subjectEndKeyDeg: 1
     subjectEndBeat: 5
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 1, type: comes }
-        - { voice: 4, type: dux }
-        - { voice: 3, type: comes }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 1, beat: 5, type: comes }
+        - { type: codetta }
+        - { voice: 4, beat: 17, type: dux }
+        - { voice: 3, beat: 21, type: comes }
 
 wtc1f18:
     answer: tonal-extra
@@ -235,10 +249,10 @@ wtc1f18:
     subjectEndKeyDeg: 5
     subjectEndBeat: 9
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 4, type: dux }
-        - { voice: 1, type: comes }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 9, type: comes }
+        - { voice: 4, beat: 17, type: dux }
+        - { voice: 1, beat: 25, type: comes }
 
 wtc1f19:
     stretto: true
@@ -250,9 +264,9 @@ wtc1f19:
     subjectEndKeyDeg: 5
     subjectEndBeat: 4.5
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 1.5, type: comes }
+        - { voice: 1, beat: 13.5, type: dux }
 
 wtc1f20:
     answer: real
@@ -263,10 +277,11 @@ wtc1f20:
     subjectEndKeyDeg: 1
     subjectEndBeat: 12.5
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 4, type: comes }
-        - { voice: 1, type: dux }
-        - { voice: 2, type: comes }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 4, beat: 12.5, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 28.5, type: dux }
+        - { voice: 2, beat: 40.5, type: comes }
 
 wtc1f21:
     answer: tonal
@@ -277,9 +292,9 @@ wtc1f21:
     subjectEndKeyDeg: 1
     subjectEndBeat: 12.5
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 12.5, type: comes }
+        - { voice: 1, beat: 24.5, type: dux }
 
 wtc1f22:
     answer: tonal
@@ -290,11 +305,13 @@ wtc1f22:
     subjectEndKeyDeg: 1
     subjectEndBeat: 8
     exposition:
-        - { voice: 5, type: dux }
-        - { voice: 4, type: comes }
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 5, beat: 0, type: dux }
+        - { voice: 4, beat: 8, type: comes }
+        - { type: codetta }
+        - { voice: 3, beat: 36, type: dux }
+        - { voice: 2, beat: 44, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 56, type: dux }
 
 wtc1f23:
     answer: tonal-extra
@@ -305,10 +322,10 @@ wtc1f23:
     subjectEndKeyDeg: 1
     subjectEndBeat: 8.5
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 4, type: dux }
-        - { voice: 1, type: comes }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 8.5, type: comes }
+        - { voice: 4, beat: 16.5, type: dux }
+        - { voice: 1, beat: 24.5, type: comes }
 
 wtc1f24:
     answer: tonal
@@ -319,10 +336,12 @@ wtc1f24:
     subjectEndKeyDeg: 1
     subjectEndBeat: 12.5
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
-        - { voice: 4, type: comes }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 12.5, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 32.5, type: dux }
+        - { type: codetta }
+        - { voice: 4, beat: 48.5, type: comes }
 
 wtc2f01:
     answer: tonal
@@ -333,9 +352,9 @@ wtc2f01:
     subjectEndKeyDeg: 1
     subjectEndBeat: 8.5
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 8.5, type: comes }
+        - { voice: 1, beat: 16.5, type: dux }
 
 wtc2f02:
     answer: tonal
@@ -346,10 +365,11 @@ wtc2f02:
     subjectEndKeyDeg: 1
     subjectEndBeat: 4.5
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 4, type: comes }
-        - { voice: 2, type: dux }
-        - { voice: 1, type: missing } # TODO
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 4, beat: 4.5, type: comes }
+        - { type: codetta }
+        - { voice: 2, beat: 12.5, type: dux }
+        - { voice: 1, beat: xxx, type: missing } # TODO
 
 wtc2f03:
     answer: tonal
@@ -360,9 +380,9 @@ wtc2f03:
     subjectEndKeyDeg: 1
     subjectEndBeat: 2.5
     exposition:
-        - { voice: 1, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 2, type: dux-inversion }
+        - { voice: 1, beat: 0, type: dux }
+        - { voice: 3, beat: 2.5, type: comes }
+        - { voice: 2, beat: 4.5, type: dux-inversion }
 
 wtc2f04:
     answer: real
@@ -373,9 +393,10 @@ wtc2f04:
     subjectEndKeyDeg: 1
     subjectEndBeat: 4.5
     exposition:
-        - { voice: 1, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 2, type: dux }
+        - { voice: 1, beat: 0, type: dux }
+        - { voice: 3, beat: 4.5, type: comes }
+        - { type: codetta }
+        - { voice: 2, beat: 12, type: dux }
 
 wtc2f05:
     answer: real
@@ -386,10 +407,11 @@ wtc2f05:
     subjectEndKeyDeg: 1
     subjectEndBeat: 6.5
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 4, type: dux }
-        - { voice: 1, type: comes }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 6.5, type: comes }
+        - { type: codetta }
+        - { voice: 4, beat: 16.5, type: dux }
+        - { voice: 1, beat: 20.5, type: comes }
 
 wtc2f06:
     answer: real
@@ -400,9 +422,10 @@ wtc2f06:
     subjectEndKeyDeg: 1
     subjectEndBeat: 8
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 8, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 20, type: dux }
 
 wtc2f07:
     answer: tonal
@@ -413,10 +436,12 @@ wtc2f07:
     subjectEndKeyDeg: 1
     subjectEndBeat: 24
     exposition:
-        - { voice: 1, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 3, type: dux }
-        - { voice: 4, type: comes }
+        - { voice: 1, beat: 0, type: dux }
+        - { voice: 2, beat: 24, type: comes }
+        - { type: codetta }
+        - { voice: 3, beat: 52, type: dux }
+        - { type: codetta }
+        - { voice: 4, beat: 80, type: comes }
 
 wtc2f08:
     answer: real
@@ -427,10 +452,11 @@ wtc2f08:
     subjectEndKeyDeg: 1
     subjectEndBeat: 8.5
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
-        - { voice: 4, type: comes }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 8.5, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 24.5, type: dux }
+        - { voice: 4, beat: 32.5, type: comes }
 
 wtc2f09:
     answer: real
@@ -441,10 +467,10 @@ wtc2f09:
     subjectEndKeyDeg: 1
     subjectEndBeat: 12
     exposition:
-        - { voice: 1, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 3, type: dux }
-        - { voice: 4, type: comes }
+        - { voice: 1, beat: 0, type: dux }
+        - { voice: 2, beat: 12, type: comes }
+        - { voice: 3, beat: 24, type: dux }
+        - { voice: 4, beat: 36, type: comes }
 
 wtc2f10:
     answer: real
@@ -455,9 +481,9 @@ wtc2f10:
     subjectEndKeyDeg: 1
     subjectEndBeat: 24.33333333 # TODO
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 24.33333333, type: comes }
+        - { voice: 1, beat: 48.33333333, type: dux }
 
 wtc2f11:
     answer: tonal
@@ -468,9 +494,10 @@ wtc2f11:
     subjectEndKeyDeg: 1
     subjectEndBeat: 6.75
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 6.75, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 20.25, type: dux }
 
 wtc2f12:
     answer: tonal
@@ -481,9 +508,10 @@ wtc2f12:
     subjectEndKeyDeg: 1
     subjectEndBeat: 8
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 8, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 22, type: dux }
 
 wtc2f13:
     answer: real
@@ -494,9 +522,9 @@ wtc2f13:
     subjectEndKeyDeg: 1
     subjectEndBeat: 16
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 16, type: comes }
+        - { voice: 1, beat: 32, type: dux }
 
 wtc2f14:
     answer: tonal
@@ -507,9 +535,10 @@ wtc2f14:
     subjectEndKeyDeg: 1
     subjectEndBeat: 13.5
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 13.5, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 31.5, type: dux }
 
 wtc2f15:
     answer: tonal
@@ -520,9 +549,9 @@ wtc2f15:
     subjectEndKeyDeg: 5
     subjectEndBeat: 10.75
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 10.75, type: comes }
+        - { voice: 1, beat: 21.25, type: dux }
 
 wtc2f16:
     answer: tonal
@@ -533,10 +562,10 @@ wtc2f16:
     subjectEndKeyDeg: 1
     subjectEndBeat: 13
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 4, type: dux }
-        - { voice: 1, type: comes }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 13, type: comes }
+        - { voice: 4, beat: 25, type: dux }
+        - { voice: 1, beat: 37, type: comes }
 
 wtc2f17:
     answer: tonal
@@ -547,10 +576,11 @@ wtc2f17:
     subjectEndKeyDeg: 1
     subjectEndBeat: 8.5
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 4, type: comes }
-        - { voice: 2, type: dux }
-        - { voice: 1, type: comes }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 4, beat: 8.5, type: comes }
+        - { type: codetta }
+        - { voice: 2, beat: 20.5, type: dux }
+        - { voice: 1, beat: 28.5, type: comes }
 
 wtc2f18:
     answer: real
@@ -561,9 +591,10 @@ wtc2f18:
     subjectEndKeyDeg: 1
     subjectEndBeat: 12
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 2, beat: 12, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 36, type: dux }
 
 wtc2f19:
     answer: real
@@ -574,9 +605,10 @@ wtc2f19:
     subjectEndKeyDeg: 1
     subjectEndBeat: 6.5
     exposition:
-        - { voice: 1, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 3, type: dux }
+        - { voice: 1, beat: 0, type: dux }
+        - { voice: 2, beat: 6.5, type: comes }
+        - { type: codetta }
+        - { voice: 3, beat: 16.5, type: dux }
 
 wtc2f20:
     answer: tonal
@@ -587,9 +619,10 @@ wtc2f20:
     subjectEndKeyDeg: 1
     subjectEndBeat: 9
     exposition:
-        - { voice: 1, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 3, type: dux }
+        - { voice: 1, beat: 0, type: dux }
+        - { voice: 2, beat: 9, type: comes }
+        - { type: codetta }
+        - { voice: 3, beat: 21, type: dux }
 
 wtc2f21:
     answer: tonal
@@ -600,9 +633,10 @@ wtc2f21:
     subjectEndKeyDeg: 1
     subjectEndBeat: 12.5
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 12.5, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 36.5, type: dux }
 
 wtc2f22:
     answer: real
@@ -613,10 +647,12 @@ wtc2f22:
     subjectEndKeyDeg: 1
     subjectEndBeat: 24
     exposition:
-        - { voice: 3, type: dux }
-        - { voice: 4, type: comes }
-        - { voice: 2, type: dux }
-        - { voice: 1, type: comes }
+        - { voice: 3, beat: 0, type: dux }
+        - { voice: 4, beat: 24, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 60, type: dux }
+        - { type: codetta }
+        - { voice: 2, beat: 96, type: comes }
 
 wtc2f23:
     answer: real
@@ -627,10 +663,11 @@ wtc2f23:
     subjectEndKeyDeg: 1
     subjectEndBeat: 16
     exposition:
-        - { voice: 1, type: dux }
-        - { voice: 2, type: comes }
-        - { voice: 3, type: dux }
-        - { voice: 4, type: comes }
+        - { voice: 1, beat: 0, type: dux }
+        - { voice: 2, beat: 16, type: comes }
+        - { type: codetta }
+        - { voice: 3, beat: 36, type: dux }
+        - { voice: 4, beat: 52, type: comes }
 
 wtc2f24:
     answer: tonal
@@ -641,6 +678,7 @@ wtc2f24:
     subjectEndKeyDeg: 1
     subjectEndBeat: 9
     exposition:
-        - { voice: 2, type: dux }
-        - { voice: 3, type: comes }
-        - { voice: 1, type: dux }
+        - { voice: 2, beat: 0, type: dux }
+        - { voice: 3, beat: 9, type: comes }
+        - { type: codetta }
+        - { voice: 1, beat: 22.5, type: dux }
