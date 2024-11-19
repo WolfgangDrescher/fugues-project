@@ -104,7 +104,7 @@ const pieces = data.value.map(fugue => ({
     subjectEndDeg: fugue.subjectEndDeg,
     subjectEndKeyDeg: fugue.subjectEndKeyDeg,
     subjectDeg: getSubjectDegString(fugue),
-    horizontal: fugue.exposition?.map(a => getVoiceName(a.voice, fugue.parts)).join(', '),
+    horizontal: fugue.exposition?.filter(elem => !!elem).map(a => getVoiceName(a.voice, fugue.parts)).join(', '),
     majorMinor: fugue.majorMinor,
     modulatingSubject: fugue.modulatingSubject,
     codetta: fugue.codetta,
