@@ -5,15 +5,21 @@ category:
     - arpeggio
 exposition:
     -
+        beat: 0
         type: dux
         voice: 3
     -
+        beat: 4.5
         type: comes
         voice: 4
     -
+        type: codetta
+    -
+        beat: 12.5
         type: dux
         voice: 2
     -
+        beat: xxx
         type: missing
         voice: 1
 id: wtc2f02

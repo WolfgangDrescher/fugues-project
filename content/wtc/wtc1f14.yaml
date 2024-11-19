@@ -4,15 +4,23 @@ bwv: 859b
 category: []
 exposition:
     -
+        beat: 0
         type: dux
         voice: 2
     -
+        beat: 19
         type: comes
         voice: 3
     -
+        type: codetta
+    -
+        beat: 43
         type: dux
         voice: 1
     -
+        type: codetta
+    -
+        beat: 85
         type: dux
         voice: 4
 id: wtc1f14

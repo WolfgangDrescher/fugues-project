@@ -6,12 +6,17 @@ category:
     - chromaticism
 exposition:
     -
+        beat: 0
         type: dux
         voice: 2
     -
+        beat: 8
         type: comes
         voice: 3
     -
+        type: codetta
+    -
+        beat: 20
         type: dux
         voice: 1
 id: wtc2f06

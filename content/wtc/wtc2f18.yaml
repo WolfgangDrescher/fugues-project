@@ -5,12 +5,17 @@ category:
     - gigue
 exposition:
     -
+        beat: 0
         type: dux
         voice: 3
     -
+        beat: 12
         type: comes
         voice: 2
     -
+        type: codetta
+    -
+        beat: 36
         type: dux
         voice: 1
 id: wtc2f18

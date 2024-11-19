@@ -6,12 +6,15 @@ category:
     - contrast
 exposition:
     -
+        beat: 0
         type: dux
         voice: 2
     -
+        beat: 16
         type: comes
         voice: 3
     -
+        beat: 32
         type: dux
         voice: 1
 id: wtc2f13

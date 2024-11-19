@@ -5,12 +5,15 @@ category:
     - arpeggio
 exposition:
     -
+        beat: 0
         type: dux
         voice: 1
     -
+        beat: 2.5
         type: comes
         voice: 3
     -
+        beat: 4.5
         type: dux-inversion
         voice: 2
 id: wtc2f03

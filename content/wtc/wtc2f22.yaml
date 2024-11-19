@@ -6,17 +6,25 @@ category:
     - profiled-rhythm
 exposition:
     -
+        beat: 0
         type: dux
         voice: 3
     -
+        beat: 24
         type: comes
         voice: 4
     -
-        type: dux
-        voice: 2
+        type: codetta
     -
-        type: comes
+        beat: 60
+        type: dux
         voice: 1
+    -
+        type: codetta
+    -
+        beat: 96
+        type: comes
+        voice: 2
 id: wtc2f22
 key: b-
 localRawFile: /kern/wtc/wtc2f22.krn

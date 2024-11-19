@@ -5,15 +5,19 @@ category:
     - profiled-rhythm
 exposition:
     -
+        beat: 0
         type: dux
         voice: 2
     -
+        beat: 13
         type: comes
         voice: 3
     -
+        beat: 25
         type: dux
         voice: 4
     -
+        beat: 37
         type: comes
         voice: 1
 id: wtc2f16

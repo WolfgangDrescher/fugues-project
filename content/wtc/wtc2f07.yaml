@@ -5,15 +5,23 @@ category:
     - vocal-linearity
 exposition:
     -
+        beat: 0
         type: dux
         voice: 1
     -
+        beat: 24
         type: comes
         voice: 2
     -
+        type: codetta
+    -
+        beat: 52
         type: dux
         voice: 3
     -
+        type: codetta
+    -
+        beat: 80
         type: comes
         voice: 4
 id: wtc2f07

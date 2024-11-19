@@ -4,15 +4,19 @@ bwv: 868b
 category: []
 exposition:
     -
+        beat: 0
         type: dux
         voice: 2
     -
+        beat: 8.5
         type: comes
         voice: 3
     -
+        beat: 16.5
         type: dux
         voice: 4
     -
+        beat: 24.5
         type: comes
         voice: 1
 id: wtc1f23
