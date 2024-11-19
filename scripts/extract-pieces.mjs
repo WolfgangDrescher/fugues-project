@@ -74,6 +74,7 @@ getFiles(pathToKernScores).forEach(file => {
 
     config.modulatingSubject = config.subjectStartKeyDeg !== config.subjectEndKeyDeg;
     config.majorMinor = config.key === config.key.toLowerCase() ? 'minor' : 'major';
+    config.codetta = config.exposition.filter(segment => segment.type === 'codetta').length > 0;
 
     const stdout = execSync(`cat ${file} | lnnr | beat -ac | extractxx -I kern | ridx -LGTMId`).toString().trim();
     const lines = stdout.split('\n');
