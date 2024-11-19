@@ -184,8 +184,8 @@ function resetFilters() {
                 </UFormGroup>
             </div>
             <div>
-                <UFormGroup>
-                    <UCheckbox v-model="filters.codetta" :label="$t('codetta')"/>
+                <UFormGroup :label="$t('codetta')">
+                    <UCheckbox v-model="filters.codetta" :label="$t('codetta')" />
                 </UFormGroup>
             </div>
             <div>
