@@ -2,6 +2,7 @@ answer: tonal-extra
 book: 1
 bwv: 863b
 category: []
+codetta: false
 exposition:
     -
         beat: 0

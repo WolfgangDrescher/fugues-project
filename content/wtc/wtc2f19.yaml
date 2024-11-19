@@ -3,6 +3,7 @@ book: 2
 bwv: 888b
 category:
     - figures
+codetta: true
 exposition:
     -
         beat: 0

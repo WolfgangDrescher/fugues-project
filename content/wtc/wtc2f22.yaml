@@ -4,6 +4,7 @@ bwv: 891b
 category:
     - vocal-linearity
     - profiled-rhythm
+codetta: true
 exposition:
     -
         beat: 0

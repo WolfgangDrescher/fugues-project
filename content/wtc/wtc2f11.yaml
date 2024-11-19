@@ -4,6 +4,7 @@ bwv: 880b
 category:
     - figures
     - gigue
+codetta: true
 exposition:
     -
         beat: 0

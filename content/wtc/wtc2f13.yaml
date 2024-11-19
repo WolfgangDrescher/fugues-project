@@ -4,6 +4,7 @@ bwv: 882b
 category:
     - profiled-rhythm
     - contrast
+codetta: false
 exposition:
     -
         beat: 0

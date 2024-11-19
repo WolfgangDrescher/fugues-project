@@ -4,6 +4,7 @@ bwv: 875b
 category:
     - contrast
     - chromaticism
+codetta: true
 exposition:
     -
         beat: 0

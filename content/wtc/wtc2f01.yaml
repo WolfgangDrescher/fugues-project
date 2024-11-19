@@ -3,6 +3,7 @@ book: 2
 bwv: 870b
 category:
     - figures
+codetta: false
 exposition:
     -
         beat: 0

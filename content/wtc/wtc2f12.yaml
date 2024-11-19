@@ -4,6 +4,7 @@ bwv: 881b
 category:
     - figures
     - lament-with-leaps
+codetta: true
 exposition:
     -
         beat: 0

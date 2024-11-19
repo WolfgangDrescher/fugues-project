@@ -3,6 +3,7 @@ book: 2
 bwv: 879b
 category:
     - profiled-rhythm
+codetta: false
 exposition:
     -
         beat: 0

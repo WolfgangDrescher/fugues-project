@@ -3,6 +3,7 @@ book: 2
 bwv: 878b
 category:
     - vocal-linearity
+codetta: false
 exposition:
     -
         beat: 0

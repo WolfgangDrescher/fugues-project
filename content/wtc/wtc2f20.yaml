@@ -4,6 +4,7 @@ bwv: 889b
 category:
     - arpeggio
     - lament-with-leaps
+codetta: true
 exposition:
     -
         beat: 0

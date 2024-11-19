@@ -2,6 +2,7 @@ answer: tonal
 book: 1
 bwv: 857b
 category: []
+codetta: true
 exposition:
     -
         beat: 0

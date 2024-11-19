@@ -3,6 +3,7 @@ book: 2
 bwv: 877b
 category:
     - vocal-linearity
+codetta: true
 exposition:
     -
         beat: 0

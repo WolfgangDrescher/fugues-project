@@ -3,6 +3,7 @@ book: 2
 bwv: 872b
 category:
     - arpeggio
+codetta: false
 exposition:
     -
         beat: 0

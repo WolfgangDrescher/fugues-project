@@ -2,6 +2,7 @@ answer: real
 book: 1
 bwv: 855b
 category: []
+codetta: false
 exposition:
     -
         beat: 0

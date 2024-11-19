@@ -3,6 +3,7 @@ book: 2
 bwv: 887b
 category:
     - gigue
+codetta: true
 exposition:
     -
         beat: 0
