@@ -10,7 +10,6 @@ const { stop } = useIntersectionObserver(target, async ([{ isIntersecting }], ob
     if (isIntersecting) {
         try {
             const response = await $fetch(props.piece.localRawFile, { parseResponse: (txt) => txt });
-            console.log(props.piece.id, response.substring(0, 10))
             const filters = [];
             if (props.piece.exposition?.[0].voice) {
                 filters.push(`extract -k ${props.piece.exposition[0].voice}`);
@@ -22,7 +21,6 @@ const { stop } = useIntersectionObserver(target, async ([{ isIntersecting }], ob
             }
             data.value = `${response}\n${filters.map(filter => `!!!filter: ${filter}`).join('\n')}`;
         } catch (e) {
-            console.log('ERROR', e);
             data.value = null;
         }
         stop();
